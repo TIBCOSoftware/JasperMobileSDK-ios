@@ -1,0 +1,1801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9363A1031B70E2720068FC54 /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9363A1061B70E2720068FC54 /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				9363A1071B70E29A0068FC54 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Documentation;
+			productName = Documentation;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		08008D7D1D2D690A00B8C227 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08008D6F1D2D677200B8C227 /* Localizable.strings */; };
+		08061B6C1C919187004F5E49 /* JSParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 08061B6A1C919187004F5E49 /* JSParameter.h */; };
+		08061B6D1C919187004F5E49 /* JSParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08061B6B1C919187004F5E49 /* JSParameter.m */; };
+		0817738C1CD376D600899B3A /* JSEncryptionDataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817738B1CD376D600899B3A /* JSEncryptionDataTest.m */; };
+		0817738F1CD37C2200899B3A /* EncryptionData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0817738E1CD37C2200899B3A /* EncryptionData.json */; };
+		081773911CD38A1300899B3A /* JSUserProfileTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 081773901CD38A1300899B3A /* JSUserProfileTest.m */; };
+		0817D9921C71CBD300111256 /* JSEncryptionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0817D9901C71CBD300111256 /* JSEncryptionData.h */; };
+		0817D9931C71CBD300111256 /* JSEncryptionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817D9911C71CBD300111256 /* JSEncryptionData.m */; };
+		08414F1C1CDB56FA00140A83 /* JSContentResourceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F1B1CDB56FA00140A83 /* JSContentResourceTest.m */; };
+		08414F1E1CDB583D00140A83 /* JSResourceLookupTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F1D1CDB583D00140A83 /* JSResourceLookupTest.m */; };
+		08414F211CDB6A2900140A83 /* ContentResource.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F1F1CDB6A2900140A83 /* ContentResource.json */; };
+		08414F221CDB6A2900140A83 /* ResourceLookup.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F201CDB6A2900140A83 /* ResourceLookup.json */; };
+		08414F241CDB6FCB00140A83 /* JSDataTypeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F231CDB6FCB00140A83 /* JSDataTypeTest.m */; };
+		08414F261CDB726700140A83 /* DataType.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F251CDB726700140A83 /* DataType.json */; };
+		08414F281CDB738800140A83 /* JSDateTimeFormatValidationRuleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F271CDB738800140A83 /* JSDateTimeFormatValidationRuleTest.m */; };
+		08414F2A1CDB774600140A83 /* JSMandatoryValidationRuleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F291CDB774600140A83 /* JSMandatoryValidationRuleTest.m */; };
+		08414F2D1CDB779D00140A83 /* DateTimeFormatValidationRule.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F2B1CDB779D00140A83 /* DateTimeFormatValidationRule.json */; };
+		08414F2E1CDB779D00140A83 /* MandatoryValidationRule.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F2C1CDB779D00140A83 /* MandatoryValidationRule.json */; };
+		08414F301CDB799B00140A83 /* JSErrorDescriptorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F2F1CDB799B00140A83 /* JSErrorDescriptorTest.m */; };
+		08414F321CDB7BAE00140A83 /* ErrorDescriptor.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F311CDB7BAE00140A83 /* ErrorDescriptor.json */; };
+		08414F341CDB7C1300140A83 /* JSExecutionStatusTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F331CDB7C1300140A83 /* JSExecutionStatusTest.m */; };
+		08414F361CDB7CDD00140A83 /* ExecutionStatus.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F351CDB7CDD00140A83 /* ExecutionStatus.json */; };
+		08414F381CDB902B00140A83 /* JSExportExecutionRequestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F371CDB902B00140A83 /* JSExportExecutionRequestTest.m */; };
+		08414F3A1CDB955400140A83 /* ExportExecutionRequest.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F391CDB955400140A83 /* ExportExecutionRequest.json */; };
+		08414F3C1CDB961D00140A83 /* JSExportExecutionResponseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F3B1CDB961D00140A83 /* JSExportExecutionResponseTest.m */; };
+		08414F3E1CDB980C00140A83 /* ExportExecutionResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F3D1CDB980C00140A83 /* ExportExecutionResponse.json */; };
+		08414F401CDC7FF500140A83 /* JSObjectRepresentationProviderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F3F1CDC7FF500140A83 /* JSObjectRepresentationProviderTest.m */; };
+		08414F421CDC814900140A83 /* JSServerProfileProviderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F411CDC814900140A83 /* JSServerProfileProviderTest.m */; };
+		08414F481CDC817500140A83 /* JSObjectRepresentationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F451CDC817500140A83 /* JSObjectRepresentationProvider.m */; };
+		08414F491CDC817500140A83 /* JSServerProfileProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F471CDC817500140A83 /* JSServerProfileProvider.m */; };
+		08414F4B1CDC931D00140A83 /* JSInputControlOptionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F4A1CDC931D00140A83 /* JSInputControlOptionTest.m */; };
+		08414F4D1CDC942600140A83 /* InputControlOption.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F4C1CDC942600140A83 /* InputControlOption.json */; };
+		08414F4F1CDC961D00140A83 /* JSInputControlStateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F4E1CDC961D00140A83 /* JSInputControlStateTest.m */; };
+		08414F511CDC974C00140A83 /* InputControlState.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F501CDC974C00140A83 /* InputControlState.json */; };
+		08414F531CDCA32800140A83 /* JSParameterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F521CDCA32800140A83 /* JSParameterTest.m */; };
+		08414F551CDCA4AC00140A83 /* Parameter.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F541CDCA4AC00140A83 /* Parameter.json */; };
+		08414F571CDCABCE00140A83 /* JSReportExecutionRequestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F561CDCABCE00140A83 /* JSReportExecutionRequestTest.m */; };
+		08414F591CDCB14900140A83 /* ReportExecutionRequest.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F581CDCB14900140A83 /* ReportExecutionRequest.json */; };
+		08414F5B1CDCC85400140A83 /* JSReportExecutionResponseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F5A1CDCC85400140A83 /* JSReportExecutionResponseTest.m */; };
+		08414F5D1CDCD1F100140A83 /* ReportExecutionResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F5C1CDCD1F100140A83 /* ReportExecutionResponse.json */; };
+		08414F5F1CDCD6DD00140A83 /* JSReportOptionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F5E1CDCD6DD00140A83 /* JSReportOptionTest.m */; };
+		08414F611CDCD9D600140A83 /* ReportOption.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F601CDCD9D600140A83 /* ReportOption.json */; };
+		08414F641CE2160E00140A83 /* JSReportParameterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F631CE2160E00140A83 /* JSReportParameterTest.m */; };
+		08414F661CE216D300140A83 /* ReportParameter.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F651CE216D300140A83 /* ReportParameter.json */; };
+		08414F681CE2178500140A83 /* JSReportOutputResourceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F671CE2178500140A83 /* JSReportOutputResourceTest.m */; };
+		08414F6A1CE217F200140A83 /* ReportOutputResource.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F691CE217F200140A83 /* ReportOutputResource.json */; };
+		08414F6C1CE21BA400140A83 /* JSResourcePatchRequestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F6B1CE21BA400140A83 /* JSResourcePatchRequestTest.m */; };
+		08414F6E1CE21F1500140A83 /* ResourcePatchRequest.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F6D1CE21F1500140A83 /* ResourcePatchRequest.json */; };
+		08414F701CE22B3800140A83 /* JSResourceReportUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F6F1CE22B3800140A83 /* JSResourceReportUnitTest.m */; };
+		08414F721CE22BFB00140A83 /* ResourceReportUnit.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F711CE22BFB00140A83 /* ResourceReportUnit.json */; };
+		08414F741CE22CE100140A83 /* JSDashboardComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F731CE22CE100140A83 /* JSDashboardComponent.m */; };
+		08414F761CE235A700140A83 /* DashboardComponent.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F751CE235A700140A83 /* DashboardComponent.json */; };
+		08414F7E1CE3529800140A83 /* JSReportComponentTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F7D1CE3529800140A83 /* JSReportComponentTest.m */; };
+		08414F801CE4AFA400140A83 /* ReportComponent.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F7F1CE4AFA400140A83 /* ReportComponent.json */; };
+		08414F821CE4B57100140A83 /* ReportComponentTableStructure.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F811CE4B57100140A83 /* ReportComponentTableStructure.json */; };
+		08414F871CE4C57200140A83 /* ReportComponentChartStructure.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F831CE4C57200140A83 /* ReportComponentChartStructure.json */; };
+		08414F881CE4C57200140A83 /* ReportComponentColumnStructure.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F841CE4C57200140A83 /* ReportComponentColumnStructure.json */; };
+		08414F891CE4C57200140A83 /* ReportComponentCrosstabStructure.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F851CE4C57200140A83 /* ReportComponentCrosstabStructure.json */; };
+		08414F8A1CE4C57200140A83 /* ReportComponentFusionStructure.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F861CE4C57200140A83 /* ReportComponentFusionStructure.json */; };
+		08414F8C1CE5B6B700140A83 /* JSScheduleJobStateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F8B1CE5B6B700140A83 /* JSScheduleJobStateTest.m */; };
+		08414F8E1CE5B7BF00140A83 /* JSDateFormatterFactoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F8D1CE5B7BF00140A83 /* JSDateFormatterFactoryTest.m */; };
+		08414F901CE5F2FD00140A83 /* ScheduleJobState.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F8F1CE5F2FD00140A83 /* ScheduleJobState.json */; };
+		08414F921CE6022D00140A83 /* JSScheduleLookupTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F911CE6022D00140A83 /* JSScheduleLookupTest.m */; };
+		08414F941CE6049E00140A83 /* ScheduleLookup.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F931CE6049E00140A83 /* ScheduleLookup.json */; };
+		08414F961CE605DB00140A83 /* JSScheduleTriggerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F951CE605DB00140A83 /* JSScheduleTriggerTest.m */; };
+		08414F981CE60A2F00140A83 /* ScheduleTrigger.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F971CE60A2F00140A83 /* ScheduleTrigger.json */; };
+		08414F9A1CE610B900140A83 /* ScheduleMetadata.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F991CE610B900140A83 /* ScheduleMetadata.json */; };
+		08414F9C1CEB0F5600140A83 /* ScheduleSimpleTrigger.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F9B1CEB0F5600140A83 /* ScheduleSimpleTrigger.json */; };
+		08414F9E1CEB12E900140A83 /* ScheduleCalendarTrigger.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414F9D1CEB12E900140A83 /* ScheduleCalendarTrigger.json */; };
+		08414FA01CEB475900140A83 /* JSScheduleMetadataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414F9F1CEB475900140A83 /* JSScheduleMetadataTest.m */; };
+		08414FA21CEB683200140A83 /* JSInputControlDescriptorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08414FA11CEB683200140A83 /* JSInputControlDescriptorTest.m */; };
+		08414FA41CEB6E0B00140A83 /* InputControlDescriptor.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414FA31CEB6E0B00140A83 /* InputControlDescriptor.json */; };
+		08414FA71CEB701000140A83 /* InputControlDescriptorDateTimeRule.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414FA51CEB701000140A83 /* InputControlDescriptorDateTimeRule.json */; };
+		08414FA81CEB701000140A83 /* InputControlDescriptorMandatoryRule.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414FA61CEB701000140A83 /* InputControlDescriptorMandatoryRule.json */; };
+		08414FAB1CEB75E800140A83 /* InputControlDescriptorSelectableValue.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414FA91CEB75E800140A83 /* InputControlDescriptorSelectableValue.json */; };
+		08414FAC1CEB75E800140A83 /* InputControlDescriptorSingleValue.json in Resources */ = {isa = PBXBuildFile; fileRef = 08414FAA1CEB75E800140A83 /* InputControlDescriptorSingleValue.json */; };
+		0849FC8D1C2B0A91008F1064 /* JSDataType.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC321C2B0A91008F1064 /* JSDataType.h */; };
+		0849FC8E1C2B0A91008F1064 /* JSDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC331C2B0A91008F1064 /* JSDataType.m */; };
+		0849FC8F1C2B0A91008F1064 /* JSDateTimeFormatValidationRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC341C2B0A91008F1064 /* JSDateTimeFormatValidationRule.h */; };
+		0849FC901C2B0A91008F1064 /* JSDateTimeFormatValidationRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC351C2B0A91008F1064 /* JSDateTimeFormatValidationRule.m */; };
+		0849FC911C2B0A91008F1064 /* JSErrorDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC361C2B0A91008F1064 /* JSErrorDescriptor.h */; };
+		0849FC921C2B0A91008F1064 /* JSErrorDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC371C2B0A91008F1064 /* JSErrorDescriptor.m */; };
+		0849FC931C2B0A91008F1064 /* JSExecutionStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC381C2B0A91008F1064 /* JSExecutionStatus.h */; };
+		0849FC941C2B0A91008F1064 /* JSExecutionStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC391C2B0A91008F1064 /* JSExecutionStatus.m */; };
+		0849FC951C2B0A91008F1064 /* JSExportExecutionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC3A1C2B0A91008F1064 /* JSExportExecutionRequest.h */; };
+		0849FC961C2B0A91008F1064 /* JSExportExecutionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC3B1C2B0A91008F1064 /* JSExportExecutionRequest.m */; };
+		0849FC971C2B0A91008F1064 /* JSExportExecutionResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC3C1C2B0A91008F1064 /* JSExportExecutionResponse.h */; };
+		0849FC981C2B0A91008F1064 /* JSExportExecutionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC3D1C2B0A91008F1064 /* JSExportExecutionResponse.m */; };
+		0849FC991C2B0A91008F1064 /* JSInputControlDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC3E1C2B0A91008F1064 /* JSInputControlDescriptor.h */; };
+		0849FC9A1C2B0A91008F1064 /* JSInputControlDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC3F1C2B0A91008F1064 /* JSInputControlDescriptor.m */; };
+		0849FC9B1C2B0A91008F1064 /* JSInputControlOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC401C2B0A91008F1064 /* JSInputControlOption.h */; };
+		0849FC9C1C2B0A91008F1064 /* JSInputControlOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC411C2B0A91008F1064 /* JSInputControlOption.m */; };
+		0849FC9D1C2B0A91008F1064 /* JSInputControlState.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC421C2B0A91008F1064 /* JSInputControlState.h */; };
+		0849FC9E1C2B0A91008F1064 /* JSInputControlState.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC431C2B0A91008F1064 /* JSInputControlState.m */; };
+		0849FC9F1C2B0A91008F1064 /* JSMandatoryValidationRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC441C2B0A91008F1064 /* JSMandatoryValidationRule.h */; };
+		0849FCA01C2B0A91008F1064 /* JSMandatoryValidationRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC451C2B0A91008F1064 /* JSMandatoryValidationRule.m */; };
+		0849FCA11C2B0A91008F1064 /* JSObjectMappings.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC461C2B0A91008F1064 /* JSObjectMappings.h */; };
+		0849FCA21C2B0A91008F1064 /* JSOperationResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC471C2B0A91008F1064 /* JSOperationResult.h */; };
+		0849FCA31C2B0A91008F1064 /* JSOperationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC481C2B0A91008F1064 /* JSOperationResult.m */; };
+		0849FCA61C2B0A91008F1064 /* JSReportExecutionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC4B1C2B0A91008F1064 /* JSReportExecutionRequest.h */; };
+		0849FCA71C2B0A91008F1064 /* JSReportExecutionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC4C1C2B0A91008F1064 /* JSReportExecutionRequest.m */; };
+		0849FCA81C2B0A91008F1064 /* JSReportExecutionResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC4D1C2B0A91008F1064 /* JSReportExecutionResponse.h */; };
+		0849FCA91C2B0A91008F1064 /* JSReportExecutionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC4E1C2B0A91008F1064 /* JSReportExecutionResponse.m */; };
+		0849FCAA1C2B0A91008F1064 /* JSReportOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC4F1C2B0A91008F1064 /* JSReportOption.h */; };
+		0849FCAB1C2B0A91008F1064 /* JSReportOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC501C2B0A91008F1064 /* JSReportOption.m */; };
+		0849FCAC1C2B0A91008F1064 /* JSReportOutputResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC511C2B0A91008F1064 /* JSReportOutputResource.h */; };
+		0849FCAD1C2B0A91008F1064 /* JSReportOutputResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC521C2B0A91008F1064 /* JSReportOutputResource.m */; };
+		0849FCAE1C2B0A91008F1064 /* JSReportParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC531C2B0A91008F1064 /* JSReportParameter.h */; };
+		0849FCAF1C2B0A91008F1064 /* JSReportParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC541C2B0A91008F1064 /* JSReportParameter.m */; };
+		0849FCB01C2B0A91008F1064 /* JSResourceLookup.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC551C2B0A91008F1064 /* JSResourceLookup.h */; };
+		0849FCB11C2B0A91008F1064 /* JSResourceLookup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC561C2B0A91008F1064 /* JSResourceLookup.m */; };
+		0849FCB41C2B0A91008F1064 /* JSResourcePatchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC591C2B0A91008F1064 /* JSResourcePatchRequest.h */; };
+		0849FCB51C2B0A91008F1064 /* JSResourcePatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC5A1C2B0A91008F1064 /* JSResourcePatchRequest.m */; };
+		0849FCB61C2B0A91008F1064 /* JSResourceReportUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC5B1C2B0A91008F1064 /* JSResourceReportUnit.h */; };
+		0849FCB71C2B0A91008F1064 /* JSResourceReportUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC5C1C2B0A91008F1064 /* JSResourceReportUnit.m */; };
+		0849FCB81C2B0A91008F1064 /* JSServerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC5D1C2B0A91008F1064 /* JSServerInfo.h */; };
+		0849FCB91C2B0A92008F1064 /* JSServerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC5E1C2B0A91008F1064 /* JSServerInfo.m */; };
+		0849FCBA1C2B0A92008F1064 /* JSReport.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC601C2B0A91008F1064 /* JSReport.h */; };
+		0849FCBB1C2B0A92008F1064 /* JSReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC611C2B0A91008F1064 /* JSReport.m */; };
+		0849FCBC1C2B0A92008F1064 /* JSReportExecutionConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC621C2B0A91008F1064 /* JSReportExecutionConfiguration.h */; };
+		0849FCBD1C2B0A92008F1064 /* JSReportExecutionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC631C2B0A91008F1064 /* JSReportExecutionConfiguration.m */; };
+		0849FCBE1C2B0A92008F1064 /* JSReportExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC641C2B0A91008F1064 /* JSReportExecutor.h */; };
+		0849FCBF1C2B0A92008F1064 /* JSReportExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC651C2B0A91008F1064 /* JSReportExecutor.m */; };
+		0849FCC01C2B0A92008F1064 /* JSReportExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC661C2B0A91008F1064 /* JSReportExtention.h */; };
+		0849FCC11C2B0A92008F1064 /* JSReportLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC671C2B0A91008F1064 /* JSReportLoader.h */; };
+		0849FCC21C2B0A92008F1064 /* JSReportLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC681C2B0A91008F1064 /* JSReportLoader.m */; };
+		0849FCC31C2B0A92008F1064 /* JSReportLoaderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC691C2B0A91008F1064 /* JSReportLoaderProtocol.h */; };
+		0849FCC41C2B0A92008F1064 /* JSReportPagesRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC6A1C2B0A91008F1064 /* JSReportPagesRange.h */; };
+		0849FCC51C2B0A92008F1064 /* JSReportPagesRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC6B1C2B0A91008F1064 /* JSReportPagesRange.m */; };
+		0849FCC61C2B0A92008F1064 /* JSReportSaver.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC6C1C2B0A91008F1064 /* JSReportSaver.h */; };
+		0849FCC71C2B0A92008F1064 /* JSReportSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC6D1C2B0A91008F1064 /* JSReportSaver.m */; };
+		0849FCC91C2B0A92008F1064 /* JSProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC701C2B0A91008F1064 /* JSProfile.h */; };
+		0849FCCA1C2B0A92008F1064 /* JSProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC711C2B0A91008F1064 /* JSProfile.m */; };
+		0849FCCB1C2B0A92008F1064 /* JSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC721C2B0A91008F1064 /* JSRequest.h */; };
+		0849FCCC1C2B0A92008F1064 /* JSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC731C2B0A91008F1064 /* JSRequest.m */; };
+		0849FCCD1C2B0A92008F1064 /* JSRESTBase+JSRESTReport.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC741C2B0A91008F1064 /* JSRESTBase+JSRESTReport.h */; };
+		0849FCCE1C2B0A92008F1064 /* JSRESTBase+JSRESTReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC751C2B0A91008F1064 /* JSRESTBase+JSRESTReport.m */; };
+		0849FCCF1C2B0A92008F1064 /* JSRESTBase+JSRESTResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC761C2B0A91008F1064 /* JSRESTBase+JSRESTResource.h */; };
+		0849FCD01C2B0A92008F1064 /* JSRESTBase+JSRESTResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC771C2B0A91008F1064 /* JSRESTBase+JSRESTResource.m */; };
+		0849FCD11C2B0A92008F1064 /* JSRESTBase+JSRESTSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC781C2B0A91008F1064 /* JSRESTBase+JSRESTSession.h */; };
+		0849FCD21C2B0A92008F1064 /* JSRESTBase+JSRESTSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC791C2B0A91008F1064 /* JSRESTBase+JSRESTSession.m */; };
+		0849FCD31C2B0A92008F1064 /* JSRESTBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC7A1C2B0A91008F1064 /* JSRESTBase.h */; };
+		0849FCD41C2B0A92008F1064 /* JSRESTBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC7B1C2B0A91008F1064 /* JSRESTBase.m */; };
+		0849FCD51C2B0A92008F1064 /* JSRestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC7C1C2B0A91008F1064 /* JSRestClient.h */; };
+		0849FCD71C2B0A93008F1064 /* KeychainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC7F1C2B0A91008F1064 /* KeychainItemWrapper.h */; };
+		0849FCD81C2B0A93008F1064 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC801C2B0A91008F1064 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0849FCD91C2B0A93008F1064 /* BasicEncodingRules.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC821C2B0A91008F1064 /* BasicEncodingRules.h */; };
+		0849FCDA1C2B0A93008F1064 /* BasicEncodingRules.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC831C2B0A91008F1064 /* BasicEncodingRules.m */; };
+		0849FCDB1C2B0A93008F1064 /* JSEncryptionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC841C2B0A91008F1064 /* JSEncryptionManager.h */; };
+		0849FCDC1C2B0A93008F1064 /* JSEncryptionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FC851C2B0A91008F1064 /* JSEncryptionManager.m */; };
+		0849FCDD1C2B0A93008F1064 /* JSSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FC861C2B0A91008F1064 /* JSSecurity.h */; };
+		0849FCE91C2C1D7D008F1064 /* JaspersoftSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FCE31C2C1D7D008F1064 /* JaspersoftSDK.h */; };
+		0849FCEA1C2C1D7D008F1064 /* JSConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FCE41C2C1D7D008F1064 /* JSConstants.h */; };
+		0849FCEB1C2C1D7D008F1064 /* JSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FCE51C2C1D7D008F1064 /* JSConstants.m */; };
+		0849FCEC1C2C1D7D008F1064 /* JSHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FCE61C2C1D7D008F1064 /* JSHelper.h */; };
+		0849FCED1C2C1D7D008F1064 /* JSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0849FCE71C2C1D7D008F1064 /* JSUtils.h */; };
+		0849FCEE1C2C1D7D008F1064 /* JSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0849FCE81C2C1D7D008F1064 /* JSUtils.m */; };
+		088663511DF1A76300B8009B /* libJaspersoftSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F59768BD15E3C75F004165A7 /* libJaspersoftSDK.a */; };
+		088663531DF1A76B00B8009B /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 088663521DF1A76B00B8009B /* libAFNetworking.a */; };
+		088663551DF1A77000B8009B /* libEasyMapping.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 088663541DF1A77000B8009B /* libEasyMapping.a */; };
+		088BE38F1CCF761E004FEAA9 /* JaspersoftSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 088BE38C1CCF761E004FEAA9 /* JaspersoftSDKTests.m */; };
+		088BE39E1CD0E93B004FEAA9 /* JSServerInfoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 088BE39D1CD0E93B004FEAA9 /* JSServerInfoTest.m */; };
+		088BE3A61CD10BB7004FEAA9 /* ServerInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 088BE3A51CD10BB7004FEAA9 /* ServerInfo.json */; };
+		0899C4451C2D8FEE00CFBD91 /* JSErrorBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0899C4431C2D8FEE00CFBD91 /* JSErrorBuilder.h */; };
+		0899C4461C2D8FEE00CFBD91 /* JSErrorBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0899C4441C2D8FEE00CFBD91 /* JSErrorBuilder.m */; };
+		0899C4491C3170AC00CFBD91 /* JSContentResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0899C4471C3170AC00CFBD91 /* JSContentResource.h */; };
+		0899C44A1C3170AC00CFBD91 /* JSContentResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0899C4481C3170AC00CFBD91 /* JSContentResource.m */; };
+		0899C44D1C3170C300CFBD91 /* JSRESTBase+JSRESTContentResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0899C44B1C3170C300CFBD91 /* JSRESTBase+JSRESTContentResource.h */; };
+		0899C44E1C3170C300CFBD91 /* JSRESTBase+JSRESTContentResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0899C44C1C3170C300CFBD91 /* JSRESTBase+JSRESTContentResource.m */; };
+		A147800DD37B9AF78B86CEF8 /* JSRESTBase+JSRESTDashboard.h in Headers */ = {isa = PBXBuildFile; fileRef = A1478F16274972BB223D56F6 /* JSRESTBase+JSRESTDashboard.h */; };
+		A147807F7FC01CA5D92C4C37 /* JSDashboardComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A147828C4698D5A889D3163B /* JSDashboardComponent.m */; };
+		A14783AEA5266354993F7F4C /* JSReportPart.h in Headers */ = {isa = PBXBuildFile; fileRef = A1478BAC3C92E5793C65F8E9 /* JSReportPart.h */; };
+		A1478449D2FAFA08F51A8C36 /* JSRESTBase+JSSchedule.h in Headers */ = {isa = PBXBuildFile; fileRef = A14788C87487E6E38FAC413D /* JSRESTBase+JSSchedule.h */; };
+		A147857A15CCC0EE16A3C2D3 /* JSScheduleTrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = A147811960554DE953BB6FC7 /* JSScheduleTrigger.m */; };
+		A14786144C8D16D581ECA7D5 /* JSReportComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A147863E63707758748F5870 /* JSReportComponent.m */; };
+		A147864DB8024087AD318145 /* JSScheduleTrigger.h in Headers */ = {isa = PBXBuildFile; fileRef = A14782B2844E9E3717AF73D6 /* JSScheduleTrigger.h */; };
+		A1478667B278BA5A9B1B05A6 /* JSReportBookmark.m in Sources */ = {isa = PBXBuildFile; fileRef = A14786E9F3841863C2C32B99 /* JSReportBookmark.m */; };
+		A1478671113039DEF1D30ABE /* JSScheduleMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = A1478FC0657A2C5AE60CA688 /* JSScheduleMetadata.m */; };
+		A1478715161A334AAD4A0DFC /* JSReportBookmark.h in Headers */ = {isa = PBXBuildFile; fileRef = A1478D4DAE50A9711D3A00EF /* JSReportBookmark.h */; };
+		A1478853DBB60C2FD9C3C7FB /* JSScheduleMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = A14786260EDE28E3427B4003 /* JSScheduleMetadata.h */; };
+		A147892CF5B36E93EF8C5778 /* JSReportPart.m in Sources */ = {isa = PBXBuildFile; fileRef = A14783C85F8A6E55B6A0FCCA /* JSReportPart.m */; };
+		A14789D7076E289DD1DBA342 /* JSScheduleLookup.m in Sources */ = {isa = PBXBuildFile; fileRef = A147813DF61F2C9F8B7E1A69 /* JSScheduleLookup.m */; };
+		A14789D7C67ED26B7DED7A09 /* JSDateFormatterFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = A1478E5FF766BDE05BFDB838 /* JSDateFormatterFactory.h */; };
+		A1478A75DCE4466F783BEEEB /* JSReportComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = A147898826A139D7447590B4 /* JSReportComponent.h */; };
+		A1478B2366FD595E1D5184F7 /* JSDashboardComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = A14780CE0E752AD263D1C79E /* JSDashboardComponent.h */; };
+		A1478CA432B170CFEDB4D4E4 /* JSRESTBase+JSRESTDashboard.m in Sources */ = {isa = PBXBuildFile; fileRef = A1478FDBCBE0FE99F2512696 /* JSRESTBase+JSRESTDashboard.m */; };
+		A1478CBCB217D3A4C19CDBE7 /* JSScheduleJobState.m in Sources */ = {isa = PBXBuildFile; fileRef = A1478CA259B4BAD463F39B36 /* JSScheduleJobState.m */; };
+		A1478CE668255138CB7CFEA6 /* JSReportDestination.m in Sources */ = {isa = PBXBuildFile; fileRef = A1478A9FDC07CAC502A29AC7 /* JSReportDestination.m */; };
+		A1478DD6E4A12B15D8ABDB78 /* JSDateFormatterFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A1478F2F9E43E7F32310F7FB /* JSDateFormatterFactory.m */; };
+		A1478E5D0DBBAD45140B2161 /* JSReportDestination.h in Headers */ = {isa = PBXBuildFile; fileRef = A1478014B4C3C942E0467991 /* JSReportDestination.h */; };
+		A1478EF134484CF355BA4DF5 /* JSScheduleLookup.h in Headers */ = {isa = PBXBuildFile; fileRef = A147879F9C5F9AE58DE2208B /* JSScheduleLookup.h */; };
+		A1478FC814F76B3AD331F43B /* JSRESTBase+JSSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = A147815111A4ADFCC724870F /* JSRESTBase+JSSchedule.m */; };
+		A1478FE74D5DDD802462C488 /* JSScheduleJobState.h in Headers */ = {isa = PBXBuildFile; fileRef = A147876D0CBB5A203071885F /* JSScheduleJobState.h */; };
+		B24C4AC173770F1F0579BF93 /* libPods-JaspersoftSDKTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 197230D4143B7CADD4623F26 /* libPods-JaspersoftSDKTests.a */; };
+		BD0A8F061C7F646A00C63F44 /* JSMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0A8F041C7F646A00C63F44 /* JSMapping.h */; };
+		BD0A8F071C7F646A00C63F44 /* JSMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0A8F051C7F646A00C63F44 /* JSMapping.m */; };
+		BD194F891C75D50100C99DA9 /* JSObjectMappingsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BD194F881C75D50100C99DA9 /* JSObjectMappingsProtocol.h */; };
+		BD3688F51D357AC5008837BE /* JSFileSaver.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3688F31D357AC5008837BE /* JSFileSaver.h */; };
+		BD3688F61D357AC5008837BE /* JSFileSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3688F41D357AC5008837BE /* JSFileSaver.m */; };
+		BD5372501D58BF2400442361 /* JSReportSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = BD53724E1D58BF2400442361 /* JSReportSearchResult.h */; };
+		BD5372511D58BF2400442361 /* JSReportSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = BD53724F1D58BF2400442361 /* JSReportSearchResult.m */; };
+		BD5372541D58D03400442361 /* JSReportSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5372521D58D03400442361 /* JSReportSearch.h */; };
+		BD5372551D58D03400442361 /* JSReportSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5372531D58D03400442361 /* JSReportSearch.m */; };
+		BD5A50731E1E8F9400B8A853 /* JSUserProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5A50711E1E8F9400B8A853 /* JSUserProfile.h */; };
+		BD5A50741E1E8F9400B8A853 /* JSUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5A50721E1E8F9400B8A853 /* JSUserProfile.m */; };
+		BD5A50771E1EA43700B8A853 /* JSSSOProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5A50751E1EA43700B8A853 /* JSSSOProfile.h */; };
+		BD5A50781E1EA43700B8A853 /* JSSSOProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5A50761E1EA43700B8A853 /* JSSSOProfile.m */; };
+		BD5A507B1E1FD45300B8A853 /* JSPAProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5A50791E1FD45300B8A853 /* JSPAProfile.h */; };
+		BD5A507C1E1FD45300B8A853 /* JSPAProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5A507A1E1FD45300B8A853 /* JSPAProfile.m */; };
+		BD5A507F1E1FD88300B8A853 /* JSRole.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5A507D1E1FD88300B8A853 /* JSRole.h */; };
+		BD5A50801E1FD88300B8A853 /* JSRole.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5A507E1E1FD88300B8A853 /* JSRole.m */; };
+		BD5A50831E1FD98900B8A853 /* JSOrganization.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5A50811E1FD98900B8A853 /* JSOrganization.h */; };
+		BD5A50841E1FD98900B8A853 /* JSOrganization.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5A50821E1FD98900B8A853 /* JSOrganization.m */; };
+		BD5A50D91E1FDC0600B8A853 /* Role.json in Resources */ = {isa = PBXBuildFile; fileRef = BD5A50D81E1FDC0600B8A853 /* Role.json */; };
+		BD5A50DB1E1FDC1100B8A853 /* Organization.json in Resources */ = {isa = PBXBuildFile; fileRef = BD5A50DA1E1FDC1100B8A853 /* Organization.json */; };
+		BD5A50DD1E1FDCA500B8A853 /* JSRoleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5A50DC1E1FDCA500B8A853 /* JSRoleTest.m */; };
+		BD5A50DF1E1FDCAC00B8A853 /* JSOrganizationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5A50DE1E1FDCAC00B8A853 /* JSOrganizationTest.m */; };
+		BD5A50E21E1FE28D00B8A853 /* JSRESTBase+JSRESTServer.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5A50E11E1FE28D00B8A853 /* JSRESTBase+JSRESTServer.m */; };
+		BD8AE8861D352886006B5595 /* JSDashboardExportExecutionResource.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8AE8841D352886006B5595 /* JSDashboardExportExecutionResource.h */; };
+		BD8AE8871D352886006B5595 /* JSDashboardExportExecutionResource.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8AE8851D352886006B5595 /* JSDashboardExportExecutionResource.m */; };
+		BD8AE88A1D355ED4006B5595 /* JSPatchResourceParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8AE8881D355ED4006B5595 /* JSPatchResourceParameter.h */; };
+		BD8AE88B1D355ED4006B5595 /* JSPatchResourceParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8AE8891D355ED4006B5595 /* JSPatchResourceParameter.m */; };
+		BD8AE88E1D356047006B5595 /* JSDashboardParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8AE88C1D356047006B5595 /* JSDashboardParameter.h */; };
+		BD8AE88F1D356047006B5595 /* JSDashboardParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8AE88D1D356047006B5595 /* JSDashboardParameter.m */; };
+		BD8AE8921D35670A006B5595 /* JSDashboardExportExecutionStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8AE8901D35670A006B5595 /* JSDashboardExportExecutionStatus.h */; };
+		BD8AE8931D35670A006B5595 /* JSDashboardExportExecutionStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8AE8911D35670A006B5595 /* JSDashboardExportExecutionStatus.m */; };
+		BD8AE8971D3569E8006B5595 /* JSDashboardSaver.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8AE8951D3569E8006B5595 /* JSDashboardSaver.h */; };
+		BD8AE8981D3569E8006B5595 /* JSDashboardSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8AE8961D3569E8006B5595 /* JSDashboardSaver.m */; };
+		BD8AE89B1D356C4F006B5595 /* JSDashboard.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8AE8991D356C4F006B5595 /* JSDashboard.h */; };
+		BD8AE89C1D356C4F006B5595 /* JSDashboard.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8AE89A1D356C4F006B5595 /* JSDashboard.m */; };
+		BD8AE89E1D357253006B5595 /* JSDashboardExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8AE89D1D357253006B5595 /* JSDashboardExtention.h */; };
+		BD991C5A1CF76B5B00859145 /* NSString+JSURLEncodings.h in Headers */ = {isa = PBXBuildFile; fileRef = BD991C581CF76B5B00859145 /* NSString+JSURLEncodings.h */; };
+		BD991C5B1CF76B5B00859145 /* NSString+JSURLEncodings.m in Sources */ = {isa = PBXBuildFile; fileRef = BD991C591CF76B5B00859145 /* NSString+JSURLEncodings.m */; };
+		FFD65C5964595F50D9326C49 /* libPods-JaspersoftSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F85CFDE522786E932150FC50 /* libPods-JaspersoftSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		088BE3851CCF73FA004FEAA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F59768B415E3C75E004165A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F59768BC15E3C75F004165A7;
+			remoteInfo = JaspersoftSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08008D6C1D2D677200B8C227 /* Errors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Errors.txt; sourceTree = "<group>"; };
+		08008D6D1D2D677200B8C227 /* Other.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Other.txt; sourceTree = "<group>"; };
+		08008D701D2D677200B8C227 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		08008D711D2D677200B8C227 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		08008D721D2D677200B8C227 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		08008D731D2D677200B8C227 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		08008D741D2D677200B8C227 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		08008D751D2D677200B8C227 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		08008D761D2D677200B8C227 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		08008D771D2D677200B8C227 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/Localizable.strings; sourceTree = "<group>"; };
+		08008D7A1D2D677200B8C227 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		08008D7B1D2D677200B8C227 /* README.md */ = {isa = PBXFileReference; fileEncoding = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		08061B6A1C919187004F5E49 /* JSParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSParameter.h; sourceTree = "<group>"; };
+		08061B6B1C919187004F5E49 /* JSParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSParameter.m; sourceTree = "<group>"; };
+		0817738B1CD376D600899B3A /* JSEncryptionDataTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSEncryptionDataTest.m; sourceTree = "<group>"; };
+		0817738D1CD3774400899B3A /* JaspersoftSDKTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JaspersoftSDKTests-Prefix.pch"; sourceTree = "<group>"; };
+		0817738E1CD37C2200899B3A /* EncryptionData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EncryptionData.json; sourceTree = "<group>"; };
+		081773901CD38A1300899B3A /* JSUserProfileTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSUserProfileTest.m; sourceTree = "<group>"; };
+		0817D9901C71CBD300111256 /* JSEncryptionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSEncryptionData.h; sourceTree = "<group>"; };
+		0817D9911C71CBD300111256 /* JSEncryptionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSEncryptionData.m; sourceTree = "<group>"; };
+		08414F1B1CDB56FA00140A83 /* JSContentResourceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSContentResourceTest.m; sourceTree = "<group>"; };
+		08414F1D1CDB583D00140A83 /* JSResourceLookupTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSResourceLookupTest.m; sourceTree = "<group>"; };
+		08414F1F1CDB6A2900140A83 /* ContentResource.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ContentResource.json; sourceTree = "<group>"; };
+		08414F201CDB6A2900140A83 /* ResourceLookup.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ResourceLookup.json; sourceTree = "<group>"; };
+		08414F231CDB6FCB00140A83 /* JSDataTypeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDataTypeTest.m; sourceTree = "<group>"; };
+		08414F251CDB726700140A83 /* DataType.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DataType.json; sourceTree = "<group>"; };
+		08414F271CDB738800140A83 /* JSDateTimeFormatValidationRuleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDateTimeFormatValidationRuleTest.m; sourceTree = "<group>"; };
+		08414F291CDB774600140A83 /* JSMandatoryValidationRuleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMandatoryValidationRuleTest.m; sourceTree = "<group>"; };
+		08414F2B1CDB779D00140A83 /* DateTimeFormatValidationRule.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DateTimeFormatValidationRule.json; sourceTree = "<group>"; };
+		08414F2C1CDB779D00140A83 /* MandatoryValidationRule.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MandatoryValidationRule.json; sourceTree = "<group>"; };
+		08414F2F1CDB799B00140A83 /* JSErrorDescriptorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSErrorDescriptorTest.m; sourceTree = "<group>"; };
+		08414F311CDB7BAE00140A83 /* ErrorDescriptor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ErrorDescriptor.json; sourceTree = "<group>"; };
+		08414F331CDB7C1300140A83 /* JSExecutionStatusTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSExecutionStatusTest.m; sourceTree = "<group>"; };
+		08414F351CDB7CDD00140A83 /* ExecutionStatus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ExecutionStatus.json; sourceTree = "<group>"; };
+		08414F371CDB902B00140A83 /* JSExportExecutionRequestTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSExportExecutionRequestTest.m; sourceTree = "<group>"; };
+		08414F391CDB955400140A83 /* ExportExecutionRequest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ExportExecutionRequest.json; sourceTree = "<group>"; };
+		08414F3B1CDB961D00140A83 /* JSExportExecutionResponseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSExportExecutionResponseTest.m; sourceTree = "<group>"; };
+		08414F3D1CDB980C00140A83 /* ExportExecutionResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ExportExecutionResponse.json; sourceTree = "<group>"; };
+		08414F3F1CDC7FF500140A83 /* JSObjectRepresentationProviderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSObjectRepresentationProviderTest.m; sourceTree = "<group>"; };
+		08414F411CDC814900140A83 /* JSServerProfileProviderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSServerProfileProviderTest.m; sourceTree = "<group>"; };
+		08414F441CDC817500140A83 /* JSObjectRepresentationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSObjectRepresentationProvider.h; sourceTree = "<group>"; };
+		08414F451CDC817500140A83 /* JSObjectRepresentationProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSObjectRepresentationProvider.m; sourceTree = "<group>"; };
+		08414F461CDC817500140A83 /* JSServerProfileProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSServerProfileProvider.h; sourceTree = "<group>"; };
+		08414F471CDC817500140A83 /* JSServerProfileProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSServerProfileProvider.m; sourceTree = "<group>"; };
+		08414F4A1CDC931D00140A83 /* JSInputControlOptionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSInputControlOptionTest.m; sourceTree = "<group>"; };
+		08414F4C1CDC942600140A83 /* InputControlOption.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = InputControlOption.json; sourceTree = "<group>"; };
+		08414F4E1CDC961D00140A83 /* JSInputControlStateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSInputControlStateTest.m; sourceTree = "<group>"; };
+		08414F501CDC974C00140A83 /* InputControlState.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = InputControlState.json; sourceTree = "<group>"; };
+		08414F521CDCA32800140A83 /* JSParameterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSParameterTest.m; sourceTree = "<group>"; };
+		08414F541CDCA4AC00140A83 /* Parameter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Parameter.json; sourceTree = "<group>"; };
+		08414F561CDCABCE00140A83 /* JSReportExecutionRequestTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportExecutionRequestTest.m; sourceTree = "<group>"; };
+		08414F581CDCB14900140A83 /* ReportExecutionRequest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ReportExecutionRequest.json; sourceTree = "<group>"; };
+		08414F5A1CDCC85400140A83 /* JSReportExecutionResponseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportExecutionResponseTest.m; sourceTree = "<group>"; };
+		08414F5C1CDCD1F100140A83 /* ReportExecutionResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ReportExecutionResponse.json; sourceTree = "<group>"; };
+		08414F5E1CDCD6DD00140A83 /* JSReportOptionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportOptionTest.m; sourceTree = "<group>"; };
+		08414F601CDCD9D600140A83 /* ReportOption.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ReportOption.json; sourceTree = "<group>"; };
+		08414F631CE2160E00140A83 /* JSReportParameterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportParameterTest.m; sourceTree = "<group>"; };
+		08414F651CE216D300140A83 /* ReportParameter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ReportParameter.json; sourceTree = "<group>"; };
+		08414F671CE2178500140A83 /* JSReportOutputResourceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportOutputResourceTest.m; sourceTree = "<group>"; };
+		08414F691CE217F200140A83 /* ReportOutputResource.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ReportOutputResource.json; sourceTree = "<group>"; };
+		08414F6B1CE21BA400140A83 /* JSResourcePatchRequestTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSResourcePatchRequestTest.m; sourceTree = "<group>"; };
+		08414F6D1CE21F1500140A83 /* ResourcePatchRequest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ResourcePatchRequest.json; sourceTree = "<group>"; };
+		08414F6F1CE22B3800140A83 /* JSResourceReportUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSResourceReportUnitTest.m; sourceTree = "<group>"; };
+		08414F711CE22BFB00140A83 /* ResourceReportUnit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ResourceReportUnit.json; sourceTree = "<group>"; };
+		08414F731CE22CE100140A83 /* JSDashboardComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDashboardComponent.m; sourceTree = "<group>"; };
+		08414F751CE235A700140A83 /* DashboardComponent.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DashboardComponent.json; sourceTree = "<group>"; };
+		08414F791CE32D0200140A83 /* TIB_jsm-sdk-ios_2.5.0_license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "TIB_jsm-sdk-ios_2.5.0_license.txt"; sourceTree = "<group>"; };
+		08414F7D1CE3529800140A83 /* JSReportComponentTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportComponentTest.m; sourceTree = "<group>"; };
+		08414F7F1CE4AFA400140A83 /* ReportComponent.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ReportComponent.json; sourceTree = "<group>"; };
+		08414F811CE4B57100140A83 /* ReportComponentTableStructure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ReportComponentTableStructure.json; sourceTree = "<group>"; };
+		08414F831CE4C57200140A83 /* ReportComponentChartStructure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ReportComponentChartStructure.json; sourceTree = "<group>"; };
+		08414F841CE4C57200140A83 /* ReportComponentColumnStructure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ReportComponentColumnStructure.json; sourceTree = "<group>"; };
+		08414F851CE4C57200140A83 /* ReportComponentCrosstabStructure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ReportComponentCrosstabStructure.json; sourceTree = "<group>"; };
+		08414F861CE4C57200140A83 /* ReportComponentFusionStructure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ReportComponentFusionStructure.json; sourceTree = "<group>"; };
+		08414F8B1CE5B6B700140A83 /* JSScheduleJobStateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSScheduleJobStateTest.m; sourceTree = "<group>"; };
+		08414F8D1CE5B7BF00140A83 /* JSDateFormatterFactoryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDateFormatterFactoryTest.m; sourceTree = "<group>"; };
+		08414F8F1CE5F2FD00140A83 /* ScheduleJobState.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ScheduleJobState.json; sourceTree = "<group>"; };
+		08414F911CE6022D00140A83 /* JSScheduleLookupTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSScheduleLookupTest.m; sourceTree = "<group>"; };
+		08414F931CE6049E00140A83 /* ScheduleLookup.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ScheduleLookup.json; sourceTree = "<group>"; };
+		08414F951CE605DB00140A83 /* JSScheduleTriggerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSScheduleTriggerTest.m; sourceTree = "<group>"; };
+		08414F971CE60A2F00140A83 /* ScheduleTrigger.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ScheduleTrigger.json; sourceTree = "<group>"; };
+		08414F991CE610B900140A83 /* ScheduleMetadata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ScheduleMetadata.json; sourceTree = "<group>"; };
+		08414F9B1CEB0F5600140A83 /* ScheduleSimpleTrigger.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ScheduleSimpleTrigger.json; sourceTree = "<group>"; };
+		08414F9D1CEB12E900140A83 /* ScheduleCalendarTrigger.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ScheduleCalendarTrigger.json; sourceTree = "<group>"; };
+		08414F9F1CEB475900140A83 /* JSScheduleMetadataTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSScheduleMetadataTest.m; sourceTree = "<group>"; };
+		08414FA11CEB683200140A83 /* JSInputControlDescriptorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSInputControlDescriptorTest.m; sourceTree = "<group>"; };
+		08414FA31CEB6E0B00140A83 /* InputControlDescriptor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = InputControlDescriptor.json; sourceTree = "<group>"; };
+		08414FA51CEB701000140A83 /* InputControlDescriptorDateTimeRule.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = InputControlDescriptorDateTimeRule.json; sourceTree = "<group>"; };
+		08414FA61CEB701000140A83 /* InputControlDescriptorMandatoryRule.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = InputControlDescriptorMandatoryRule.json; sourceTree = "<group>"; };
+		08414FA91CEB75E800140A83 /* InputControlDescriptorSelectableValue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = InputControlDescriptorSelectableValue.json; sourceTree = "<group>"; };
+		08414FAA1CEB75E800140A83 /* InputControlDescriptorSingleValue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = InputControlDescriptorSingleValue.json; sourceTree = "<group>"; };
+		0849FC321C2B0A91008F1064 /* JSDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDataType.h; sourceTree = "<group>"; };
+		0849FC331C2B0A91008F1064 /* JSDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDataType.m; sourceTree = "<group>"; };
+		0849FC341C2B0A91008F1064 /* JSDateTimeFormatValidationRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDateTimeFormatValidationRule.h; sourceTree = "<group>"; };
+		0849FC351C2B0A91008F1064 /* JSDateTimeFormatValidationRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDateTimeFormatValidationRule.m; sourceTree = "<group>"; };
+		0849FC361C2B0A91008F1064 /* JSErrorDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSErrorDescriptor.h; sourceTree = "<group>"; };
+		0849FC371C2B0A91008F1064 /* JSErrorDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSErrorDescriptor.m; sourceTree = "<group>"; };
+		0849FC381C2B0A91008F1064 /* JSExecutionStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSExecutionStatus.h; sourceTree = "<group>"; };
+		0849FC391C2B0A91008F1064 /* JSExecutionStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSExecutionStatus.m; sourceTree = "<group>"; };
+		0849FC3A1C2B0A91008F1064 /* JSExportExecutionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSExportExecutionRequest.h; sourceTree = "<group>"; };
+		0849FC3B1C2B0A91008F1064 /* JSExportExecutionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSExportExecutionRequest.m; sourceTree = "<group>"; };
+		0849FC3C1C2B0A91008F1064 /* JSExportExecutionResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSExportExecutionResponse.h; sourceTree = "<group>"; };
+		0849FC3D1C2B0A91008F1064 /* JSExportExecutionResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSExportExecutionResponse.m; sourceTree = "<group>"; };
+		0849FC3E1C2B0A91008F1064 /* JSInputControlDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSInputControlDescriptor.h; sourceTree = "<group>"; };
+		0849FC3F1C2B0A91008F1064 /* JSInputControlDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSInputControlDescriptor.m; sourceTree = "<group>"; };
+		0849FC401C2B0A91008F1064 /* JSInputControlOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSInputControlOption.h; sourceTree = "<group>"; };
+		0849FC411C2B0A91008F1064 /* JSInputControlOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSInputControlOption.m; sourceTree = "<group>"; };
+		0849FC421C2B0A91008F1064 /* JSInputControlState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSInputControlState.h; sourceTree = "<group>"; };
+		0849FC431C2B0A91008F1064 /* JSInputControlState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSInputControlState.m; sourceTree = "<group>"; };
+		0849FC441C2B0A91008F1064 /* JSMandatoryValidationRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMandatoryValidationRule.h; sourceTree = "<group>"; };
+		0849FC451C2B0A91008F1064 /* JSMandatoryValidationRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMandatoryValidationRule.m; sourceTree = "<group>"; };
+		0849FC461C2B0A91008F1064 /* JSObjectMappings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSObjectMappings.h; sourceTree = "<group>"; };
+		0849FC471C2B0A91008F1064 /* JSOperationResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSOperationResult.h; sourceTree = "<group>"; };
+		0849FC481C2B0A91008F1064 /* JSOperationResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSOperationResult.m; sourceTree = "<group>"; };
+		0849FC4B1C2B0A91008F1064 /* JSReportExecutionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReportExecutionRequest.h; sourceTree = "<group>"; };
+		0849FC4C1C2B0A91008F1064 /* JSReportExecutionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportExecutionRequest.m; sourceTree = "<group>"; };
+		0849FC4D1C2B0A91008F1064 /* JSReportExecutionResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReportExecutionResponse.h; sourceTree = "<group>"; };
+		0849FC4E1C2B0A91008F1064 /* JSReportExecutionResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportExecutionResponse.m; sourceTree = "<group>"; };
+		0849FC4F1C2B0A91008F1064 /* JSReportOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReportOption.h; sourceTree = "<group>"; };
+		0849FC501C2B0A91008F1064 /* JSReportOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportOption.m; sourceTree = "<group>"; };
+		0849FC511C2B0A91008F1064 /* JSReportOutputResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReportOutputResource.h; sourceTree = "<group>"; };
+		0849FC521C2B0A91008F1064 /* JSReportOutputResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportOutputResource.m; sourceTree = "<group>"; };
+		0849FC531C2B0A91008F1064 /* JSReportParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReportParameter.h; sourceTree = "<group>"; };
+		0849FC541C2B0A91008F1064 /* JSReportParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportParameter.m; sourceTree = "<group>"; };
+		0849FC551C2B0A91008F1064 /* JSResourceLookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSResourceLookup.h; sourceTree = "<group>"; };
+		0849FC561C2B0A91008F1064 /* JSResourceLookup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSResourceLookup.m; sourceTree = "<group>"; };
+		0849FC591C2B0A91008F1064 /* JSResourcePatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSResourcePatchRequest.h; sourceTree = "<group>"; };
+		0849FC5A1C2B0A91008F1064 /* JSResourcePatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSResourcePatchRequest.m; sourceTree = "<group>"; };
+		0849FC5B1C2B0A91008F1064 /* JSResourceReportUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSResourceReportUnit.h; sourceTree = "<group>"; };
+		0849FC5C1C2B0A91008F1064 /* JSResourceReportUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSResourceReportUnit.m; sourceTree = "<group>"; };
+		0849FC5D1C2B0A91008F1064 /* JSServerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSServerInfo.h; sourceTree = "<group>"; };
+		0849FC5E1C2B0A91008F1064 /* JSServerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSServerInfo.m; sourceTree = "<group>"; };
+		0849FC601C2B0A91008F1064 /* JSReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReport.h; sourceTree = "<group>"; };
+		0849FC611C2B0A91008F1064 /* JSReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReport.m; sourceTree = "<group>"; };
+		0849FC621C2B0A91008F1064 /* JSReportExecutionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReportExecutionConfiguration.h; sourceTree = "<group>"; };
+		0849FC631C2B0A91008F1064 /* JSReportExecutionConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportExecutionConfiguration.m; sourceTree = "<group>"; };
+		0849FC641C2B0A91008F1064 /* JSReportExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReportExecutor.h; sourceTree = "<group>"; };
+		0849FC651C2B0A91008F1064 /* JSReportExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportExecutor.m; sourceTree = "<group>"; };
+		0849FC661C2B0A91008F1064 /* JSReportExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReportExtention.h; sourceTree = "<group>"; };
+		0849FC671C2B0A91008F1064 /* JSReportLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReportLoader.h; sourceTree = "<group>"; };
+		0849FC681C2B0A91008F1064 /* JSReportLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportLoader.m; sourceTree = "<group>"; };
+		0849FC691C2B0A91008F1064 /* JSReportLoaderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReportLoaderProtocol.h; sourceTree = "<group>"; };
+		0849FC6A1C2B0A91008F1064 /* JSReportPagesRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReportPagesRange.h; sourceTree = "<group>"; };
+		0849FC6B1C2B0A91008F1064 /* JSReportPagesRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportPagesRange.m; sourceTree = "<group>"; };
+		0849FC6C1C2B0A91008F1064 /* JSReportSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReportSaver.h; sourceTree = "<group>"; };
+		0849FC6D1C2B0A91008F1064 /* JSReportSaver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportSaver.m; sourceTree = "<group>"; };
+		0849FC701C2B0A91008F1064 /* JSProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSProfile.h; sourceTree = "<group>"; };
+		0849FC711C2B0A91008F1064 /* JSProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSProfile.m; sourceTree = "<group>"; };
+		0849FC721C2B0A91008F1064 /* JSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRequest.h; sourceTree = "<group>"; };
+		0849FC731C2B0A91008F1064 /* JSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRequest.m; sourceTree = "<group>"; };
+		0849FC741C2B0A91008F1064 /* JSRESTBase+JSRESTReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSRESTBase+JSRESTReport.h"; sourceTree = "<group>"; };
+		0849FC751C2B0A91008F1064 /* JSRESTBase+JSRESTReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSRESTBase+JSRESTReport.m"; sourceTree = "<group>"; };
+		0849FC761C2B0A91008F1064 /* JSRESTBase+JSRESTResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSRESTBase+JSRESTResource.h"; sourceTree = "<group>"; };
+		0849FC771C2B0A91008F1064 /* JSRESTBase+JSRESTResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSRESTBase+JSRESTResource.m"; sourceTree = "<group>"; };
+		0849FC781C2B0A91008F1064 /* JSRESTBase+JSRESTSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSRESTBase+JSRESTSession.h"; sourceTree = "<group>"; };
+		0849FC791C2B0A91008F1064 /* JSRESTBase+JSRESTSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSRESTBase+JSRESTSession.m"; sourceTree = "<group>"; };
+		0849FC7A1C2B0A91008F1064 /* JSRESTBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRESTBase.h; sourceTree = "<group>"; };
+		0849FC7B1C2B0A91008F1064 /* JSRESTBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRESTBase.m; sourceTree = "<group>"; };
+		0849FC7C1C2B0A91008F1064 /* JSRestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRestClient.h; sourceTree = "<group>"; };
+		0849FC7F1C2B0A91008F1064 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		0849FC801C2B0A91008F1064 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		0849FC821C2B0A91008F1064 /* BasicEncodingRules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicEncodingRules.h; sourceTree = "<group>"; };
+		0849FC831C2B0A91008F1064 /* BasicEncodingRules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicEncodingRules.m; sourceTree = "<group>"; };
+		0849FC841C2B0A91008F1064 /* JSEncryptionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSEncryptionManager.h; sourceTree = "<group>"; };
+		0849FC851C2B0A91008F1064 /* JSEncryptionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSEncryptionManager.m; sourceTree = "<group>"; };
+		0849FC861C2B0A91008F1064 /* JSSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSecurity.h; sourceTree = "<group>"; };
+		0849FCE31C2C1D7D008F1064 /* JaspersoftSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JaspersoftSDK.h; sourceTree = "<group>"; };
+		0849FCE41C2C1D7D008F1064 /* JSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSConstants.h; sourceTree = "<group>"; };
+		0849FCE51C2C1D7D008F1064 /* JSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSConstants.m; sourceTree = "<group>"; };
+		0849FCE61C2C1D7D008F1064 /* JSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSHelper.h; sourceTree = "<group>"; };
+		0849FCE71C2C1D7D008F1064 /* JSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSUtils.h; sourceTree = "<group>"; };
+		0849FCE81C2C1D7D008F1064 /* JSUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSUtils.m; sourceTree = "<group>"; };
+		0886634F1DF1A75200B8009B /* libPods-JaspersoftSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-JaspersoftSDK.a"; path = "../../../Library/Developer/Xcode/DerivedData/JaspersoftSDK-hhkbabsitjqcnrchgeoccelllnfw/Build/Products/Debug-iphonesimulator/libPods-JaspersoftSDK.a"; sourceTree = "<group>"; };
+		088663521DF1A76B00B8009B /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "../../../Library/Developer/Xcode/DerivedData/JaspersoftSDK-hhkbabsitjqcnrchgeoccelllnfw/Build/Products/Debug-iphonesimulator/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
+		088663541DF1A77000B8009B /* libEasyMapping.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEasyMapping.a; path = "../../../Library/Developer/Xcode/DerivedData/JaspersoftSDK-hhkbabsitjqcnrchgeoccelllnfw/Build/Products/Debug-iphonesimulator/EasyMapping/libEasyMapping.a"; sourceTree = "<group>"; };
+		088BE37F1CCF73F9004FEAA9 /* JaspersoftSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JaspersoftSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		088BE38C1CCF761E004FEAA9 /* JaspersoftSDKTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JaspersoftSDKTests.m; sourceTree = "<group>"; };
+		088BE38E1CCF761E004FEAA9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088BE39D1CD0E93B004FEAA9 /* JSServerInfoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSServerInfoTest.m; sourceTree = "<group>"; };
+		088BE3A51CD10BB7004FEAA9 /* ServerInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ServerInfo.json; sourceTree = "<group>"; };
+		0899C4431C2D8FEE00CFBD91 /* JSErrorBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSErrorBuilder.h; sourceTree = "<group>"; };
+		0899C4441C2D8FEE00CFBD91 /* JSErrorBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSErrorBuilder.m; sourceTree = "<group>"; };
+		0899C4471C3170AC00CFBD91 /* JSContentResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSContentResource.h; sourceTree = "<group>"; };
+		0899C4481C3170AC00CFBD91 /* JSContentResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSContentResource.m; sourceTree = "<group>"; };
+		0899C44B1C3170C300CFBD91 /* JSRESTBase+JSRESTContentResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSRESTBase+JSRESTContentResource.h"; sourceTree = "<group>"; };
+		0899C44C1C3170C300CFBD91 /* JSRESTBase+JSRESTContentResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSRESTBase+JSRESTContentResource.m"; sourceTree = "<group>"; };
+		197230D4143B7CADD4623F26 /* libPods-JaspersoftSDKTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JaspersoftSDKTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B47219FE89A4B1BC9637BA0 /* Pods-JaspersoftSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaspersoftSDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JaspersoftSDKTests/Pods-JaspersoftSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		A1478014B4C3C942E0467991 /* JSReportDestination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReportDestination.h; sourceTree = "<group>"; };
+		A14780CE0E752AD263D1C79E /* JSDashboardComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDashboardComponent.h; sourceTree = "<group>"; };
+		A147811960554DE953BB6FC7 /* JSScheduleTrigger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSScheduleTrigger.m; sourceTree = "<group>"; };
+		A147813DF61F2C9F8B7E1A69 /* JSScheduleLookup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSScheduleLookup.m; sourceTree = "<group>"; };
+		A147815111A4ADFCC724870F /* JSRESTBase+JSSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSRESTBase+JSSchedule.m"; sourceTree = "<group>"; };
+		A147828C4698D5A889D3163B /* JSDashboardComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDashboardComponent.m; sourceTree = "<group>"; };
+		A14782B2844E9E3717AF73D6 /* JSScheduleTrigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSScheduleTrigger.h; sourceTree = "<group>"; };
+		A14783C85F8A6E55B6A0FCCA /* JSReportPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportPart.m; sourceTree = "<group>"; };
+		A14786260EDE28E3427B4003 /* JSScheduleMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSScheduleMetadata.h; sourceTree = "<group>"; };
+		A147863E63707758748F5870 /* JSReportComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportComponent.m; sourceTree = "<group>"; };
+		A14786E9F3841863C2C32B99 /* JSReportBookmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportBookmark.m; sourceTree = "<group>"; };
+		A147876D0CBB5A203071885F /* JSScheduleJobState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSScheduleJobState.h; sourceTree = "<group>"; };
+		A147879F9C5F9AE58DE2208B /* JSScheduleLookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSScheduleLookup.h; sourceTree = "<group>"; };
+		A14788C87487E6E38FAC413D /* JSRESTBase+JSSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSRESTBase+JSSchedule.h"; sourceTree = "<group>"; };
+		A147898826A139D7447590B4 /* JSReportComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReportComponent.h; sourceTree = "<group>"; };
+		A1478A9FDC07CAC502A29AC7 /* JSReportDestination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportDestination.m; sourceTree = "<group>"; };
+		A1478BAC3C92E5793C65F8E9 /* JSReportPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReportPart.h; sourceTree = "<group>"; };
+		A1478CA259B4BAD463F39B36 /* JSScheduleJobState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSScheduleJobState.m; sourceTree = "<group>"; };
+		A1478D4DAE50A9711D3A00EF /* JSReportBookmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReportBookmark.h; sourceTree = "<group>"; };
+		A1478E5FF766BDE05BFDB838 /* JSDateFormatterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDateFormatterFactory.h; sourceTree = "<group>"; };
+		A1478F16274972BB223D56F6 /* JSRESTBase+JSRESTDashboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSRESTBase+JSRESTDashboard.h"; sourceTree = "<group>"; };
+		A1478F2F9E43E7F32310F7FB /* JSDateFormatterFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDateFormatterFactory.m; sourceTree = "<group>"; };
+		A1478FC0657A2C5AE60CA688 /* JSScheduleMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSScheduleMetadata.m; sourceTree = "<group>"; };
+		A1478FDBCBE0FE99F2512696 /* JSRESTBase+JSRESTDashboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSRESTBase+JSRESTDashboard.m"; sourceTree = "<group>"; };
+		BD0A8F041C7F646A00C63F44 /* JSMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMapping.h; sourceTree = "<group>"; };
+		BD0A8F051C7F646A00C63F44 /* JSMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMapping.m; sourceTree = "<group>"; };
+		BD194F881C75D50100C99DA9 /* JSObjectMappingsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSObjectMappingsProtocol.h; sourceTree = "<group>"; };
+		BD3688F31D357AC5008837BE /* JSFileSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSFileSaver.h; sourceTree = "<group>"; };
+		BD3688F41D357AC5008837BE /* JSFileSaver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSFileSaver.m; sourceTree = "<group>"; };
+		BD53724E1D58BF2400442361 /* JSReportSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReportSearchResult.h; sourceTree = "<group>"; };
+		BD53724F1D58BF2400442361 /* JSReportSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportSearchResult.m; sourceTree = "<group>"; };
+		BD5372521D58D03400442361 /* JSReportSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReportSearch.h; sourceTree = "<group>"; };
+		BD5372531D58D03400442361 /* JSReportSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReportSearch.m; sourceTree = "<group>"; };
+		BD5A50711E1E8F9400B8A853 /* JSUserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSUserProfile.h; sourceTree = "<group>"; };
+		BD5A50721E1E8F9400B8A853 /* JSUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSUserProfile.m; sourceTree = "<group>"; };
+		BD5A50751E1EA43700B8A853 /* JSSSOProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSSOProfile.h; sourceTree = "<group>"; };
+		BD5A50761E1EA43700B8A853 /* JSSSOProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSSOProfile.m; sourceTree = "<group>"; };
+		BD5A50791E1FD45300B8A853 /* JSPAProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPAProfile.h; sourceTree = "<group>"; };
+		BD5A507A1E1FD45300B8A853 /* JSPAProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPAProfile.m; sourceTree = "<group>"; };
+		BD5A507D1E1FD88300B8A853 /* JSRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRole.h; sourceTree = "<group>"; };
+		BD5A507E1E1FD88300B8A853 /* JSRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRole.m; sourceTree = "<group>"; };
+		BD5A50811E1FD98900B8A853 /* JSOrganization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSOrganization.h; sourceTree = "<group>"; };
+		BD5A50821E1FD98900B8A853 /* JSOrganization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSOrganization.m; sourceTree = "<group>"; };
+		BD5A50D81E1FDC0600B8A853 /* Role.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Role.json; sourceTree = "<group>"; };
+		BD5A50DA1E1FDC1100B8A853 /* Organization.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Organization.json; sourceTree = "<group>"; };
+		BD5A50DC1E1FDCA500B8A853 /* JSRoleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRoleTest.m; sourceTree = "<group>"; };
+		BD5A50DE1E1FDCAC00B8A853 /* JSOrganizationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSOrganizationTest.m; sourceTree = "<group>"; };
+		BD5A50E01E1FE28D00B8A853 /* JSRESTBase+JSRESTServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSRESTBase+JSRESTServer.h"; sourceTree = "<group>"; };
+		BD5A50E11E1FE28D00B8A853 /* JSRESTBase+JSRESTServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSRESTBase+JSRESTServer.m"; sourceTree = "<group>"; };
+		BD8AE8841D352886006B5595 /* JSDashboardExportExecutionResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDashboardExportExecutionResource.h; sourceTree = "<group>"; };
+		BD8AE8851D352886006B5595 /* JSDashboardExportExecutionResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDashboardExportExecutionResource.m; sourceTree = "<group>"; };
+		BD8AE8881D355ED4006B5595 /* JSPatchResourceParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPatchResourceParameter.h; sourceTree = "<group>"; };
+		BD8AE8891D355ED4006B5595 /* JSPatchResourceParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPatchResourceParameter.m; sourceTree = "<group>"; };
+		BD8AE88C1D356047006B5595 /* JSDashboardParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDashboardParameter.h; sourceTree = "<group>"; };
+		BD8AE88D1D356047006B5595 /* JSDashboardParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDashboardParameter.m; sourceTree = "<group>"; };
+		BD8AE8901D35670A006B5595 /* JSDashboardExportExecutionStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDashboardExportExecutionStatus.h; sourceTree = "<group>"; };
+		BD8AE8911D35670A006B5595 /* JSDashboardExportExecutionStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDashboardExportExecutionStatus.m; sourceTree = "<group>"; };
+		BD8AE8951D3569E8006B5595 /* JSDashboardSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDashboardSaver.h; sourceTree = "<group>"; };
+		BD8AE8961D3569E8006B5595 /* JSDashboardSaver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDashboardSaver.m; sourceTree = "<group>"; };
+		BD8AE8991D356C4F006B5595 /* JSDashboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDashboard.h; sourceTree = "<group>"; };
+		BD8AE89A1D356C4F006B5595 /* JSDashboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDashboard.m; sourceTree = "<group>"; };
+		BD8AE89D1D357253006B5595 /* JSDashboardExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDashboardExtention.h; sourceTree = "<group>"; };
+		BD991C581CF76B5B00859145 /* NSString+JSURLEncodings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSURLEncodings.h"; sourceTree = "<group>"; };
+		BD991C591CF76B5B00859145 /* NSString+JSURLEncodings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSURLEncodings.m"; sourceTree = "<group>"; };
+		CE241112233BFF779E325E40 /* Pods-JaspersoftSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaspersoftSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-JaspersoftSDK/Pods-JaspersoftSDK.release.xcconfig"; sourceTree = "<group>"; };
+		EA13BD645DD21B4259C8E1B8 /* Pods-JaspersoftSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaspersoftSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JaspersoftSDK/Pods-JaspersoftSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		F5758F3D174E301800C355C1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F5758F40174E302800C355C1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F5758F42174E302E00C355C1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F5758F44174E303300C355C1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F5758F46174E303900C355C1 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		F5758F48174E303E00C355C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F59768BD15E3C75F004165A7 /* libJaspersoftSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJaspersoftSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59768C015E3C75F004165A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5A8141715EBFA1900151B1D /* JaspersoftSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JaspersoftSDK-Prefix.pch"; sourceTree = "<group>"; };
+		F5F68E0D15E55EC000270103 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F5F68E0E15E55EC000270103 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F5F68E0F15E55EC000270103 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F85CFDE522786E932150FC50 /* libPods-JaspersoftSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JaspersoftSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F873D00592B037B01451794E /* Pods-JaspersoftSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaspersoftSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JaspersoftSDKTests/Pods-JaspersoftSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		088BE37C1CCF73F9004FEAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088663551DF1A77000B8009B /* libEasyMapping.a in Frameworks */,
+				088663531DF1A76B00B8009B /* libAFNetworking.a in Frameworks */,
+				088663511DF1A76300B8009B /* libJaspersoftSDK.a in Frameworks */,
+				B24C4AC173770F1F0579BF93 /* libPods-JaspersoftSDKTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B895EB877E9542E6F4F144E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD65C5964595F50D9326C49 /* libPods-JaspersoftSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08008D6B1D2D677200B8C227 /* all_values */ = {
+			isa = PBXGroup;
+			children = (
+				08008D6C1D2D677200B8C227 /* Errors.txt */,
+				08008D6D1D2D677200B8C227 /* Other.txt */,
+			);
+			path = all_values;
+			sourceTree = "<group>";
+		};
+		08008D6E1D2D677200B8C227 /* JaspersoftSDK.strings */ = {
+			isa = PBXGroup;
+			children = (
+				08008D6F1D2D677200B8C227 /* Localizable.strings */,
+			);
+			path = JaspersoftSDK.strings;
+			sourceTree = "<group>";
+		};
+		08008D781D2D677200B8C227 /* New_Strings */ = {
+			isa = PBXGroup;
+			children = (
+				08008D791D2D677200B8C227 /* Localizable.strings */,
+			);
+			path = New_Strings;
+			sourceTree = "<group>";
+		};
+		0811BC8D1C0889B7006D0ABF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0811BCA21C08903D006D0ABF /* Localizable */,
+				A14781C33B4F5C834CAA8E45 /* EULA */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0811BCA21C08903D006D0ABF /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				08008D6B1D2D677200B8C227 /* all_values */,
+				08008D6E1D2D677200B8C227 /* JaspersoftSDK.strings */,
+				08008D781D2D677200B8C227 /* New_Strings */,
+				08008D7B1D2D677200B8C227 /* README.md */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		08414F431CDC817500140A83 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				08414F441CDC817500140A83 /* JSObjectRepresentationProvider.h */,
+				08414F451CDC817500140A83 /* JSObjectRepresentationProvider.m */,
+				08414F461CDC817500140A83 /* JSServerProfileProvider.h */,
+				08414F471CDC817500140A83 /* JSServerProfileProvider.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0849FC2F1C2B0A91008F1064 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0849FCE21C2C1D7D008F1064 /* JSHelper */,
+				0849FC311C2B0A91008F1064 /* JSObjectMappings */,
+				0849FC5F1C2B0A91008F1064 /* JSReportExtention */,
+				BD8AE8941D3569C0006B5595 /* JSDashboardExtention */,
+				0849FC6E1C2B0A91008F1064 /* JSRestClient */,
+				0849FC811C2B0A91008F1064 /* JSSecurity */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0849FC311C2B0A91008F1064 /* JSObjectMappings */ = {
+			isa = PBXGroup;
+			children = (
+				0849FC461C2B0A91008F1064 /* JSObjectMappings.h */,
+				BD194F881C75D50100C99DA9 /* JSObjectMappingsProtocol.h */,
+				BD0A8F041C7F646A00C63F44 /* JSMapping.h */,
+				BD0A8F051C7F646A00C63F44 /* JSMapping.m */,
+				0899C4471C3170AC00CFBD91 /* JSContentResource.h */,
+				0899C4481C3170AC00CFBD91 /* JSContentResource.m */,
+				BD8AE88C1D356047006B5595 /* JSDashboardParameter.h */,
+				BD8AE88D1D356047006B5595 /* JSDashboardParameter.m */,
+				BD8AE8841D352886006B5595 /* JSDashboardExportExecutionResource.h */,
+				BD8AE8851D352886006B5595 /* JSDashboardExportExecutionResource.m */,
+				BD8AE8901D35670A006B5595 /* JSDashboardExportExecutionStatus.h */,
+				BD8AE8911D35670A006B5595 /* JSDashboardExportExecutionStatus.m */,
+				0849FC321C2B0A91008F1064 /* JSDataType.h */,
+				0849FC331C2B0A91008F1064 /* JSDataType.m */,
+				0849FC341C2B0A91008F1064 /* JSDateTimeFormatValidationRule.h */,
+				0849FC351C2B0A91008F1064 /* JSDateTimeFormatValidationRule.m */,
+				0817D9901C71CBD300111256 /* JSEncryptionData.h */,
+				0817D9911C71CBD300111256 /* JSEncryptionData.m */,
+				0849FC361C2B0A91008F1064 /* JSErrorDescriptor.h */,
+				0849FC371C2B0A91008F1064 /* JSErrorDescriptor.m */,
+				0849FC381C2B0A91008F1064 /* JSExecutionStatus.h */,
+				0849FC391C2B0A91008F1064 /* JSExecutionStatus.m */,
+				0849FC3A1C2B0A91008F1064 /* JSExportExecutionRequest.h */,
+				0849FC3B1C2B0A91008F1064 /* JSExportExecutionRequest.m */,
+				0849FC3C1C2B0A91008F1064 /* JSExportExecutionResponse.h */,
+				0849FC3D1C2B0A91008F1064 /* JSExportExecutionResponse.m */,
+				0849FC3E1C2B0A91008F1064 /* JSInputControlDescriptor.h */,
+				0849FC3F1C2B0A91008F1064 /* JSInputControlDescriptor.m */,
+				0849FC401C2B0A91008F1064 /* JSInputControlOption.h */,
+				0849FC411C2B0A91008F1064 /* JSInputControlOption.m */,
+				0849FC421C2B0A91008F1064 /* JSInputControlState.h */,
+				0849FC431C2B0A91008F1064 /* JSInputControlState.m */,
+				0849FC441C2B0A91008F1064 /* JSMandatoryValidationRule.h */,
+				0849FC451C2B0A91008F1064 /* JSMandatoryValidationRule.m */,
+				0849FC471C2B0A91008F1064 /* JSOperationResult.h */,
+				0849FC481C2B0A91008F1064 /* JSOperationResult.m */,
+				BD5A50811E1FD98900B8A853 /* JSOrganization.h */,
+				BD5A50821E1FD98900B8A853 /* JSOrganization.m */,
+				08061B6A1C919187004F5E49 /* JSParameter.h */,
+				08061B6B1C919187004F5E49 /* JSParameter.m */,
+				BD8AE8881D355ED4006B5595 /* JSPatchResourceParameter.h */,
+				BD8AE8891D355ED4006B5595 /* JSPatchResourceParameter.m */,
+				0849FC4B1C2B0A91008F1064 /* JSReportExecutionRequest.h */,
+				0849FC4C1C2B0A91008F1064 /* JSReportExecutionRequest.m */,
+				0849FC4D1C2B0A91008F1064 /* JSReportExecutionResponse.h */,
+				0849FC4E1C2B0A91008F1064 /* JSReportExecutionResponse.m */,
+				0849FC4F1C2B0A91008F1064 /* JSReportOption.h */,
+				0849FC501C2B0A91008F1064 /* JSReportOption.m */,
+				0849FC511C2B0A91008F1064 /* JSReportOutputResource.h */,
+				0849FC521C2B0A91008F1064 /* JSReportOutputResource.m */,
+				0849FC531C2B0A91008F1064 /* JSReportParameter.h */,
+				0849FC541C2B0A91008F1064 /* JSReportParameter.m */,
+				0849FC551C2B0A91008F1064 /* JSResourceLookup.h */,
+				0849FC561C2B0A91008F1064 /* JSResourceLookup.m */,
+				0849FC591C2B0A91008F1064 /* JSResourcePatchRequest.h */,
+				0849FC5A1C2B0A91008F1064 /* JSResourcePatchRequest.m */,
+				0849FC5B1C2B0A91008F1064 /* JSResourceReportUnit.h */,
+				0849FC5C1C2B0A91008F1064 /* JSResourceReportUnit.m */,
+				BD5A507D1E1FD88300B8A853 /* JSRole.h */,
+				BD5A507E1E1FD88300B8A853 /* JSRole.m */,
+				0849FC5D1C2B0A91008F1064 /* JSServerInfo.h */,
+				0849FC5E1C2B0A91008F1064 /* JSServerInfo.m */,
+				A14780CE0E752AD263D1C79E /* JSDashboardComponent.h */,
+				A147828C4698D5A889D3163B /* JSDashboardComponent.m */,
+				A14786260EDE28E3427B4003 /* JSScheduleMetadata.h */,
+				A1478FC0657A2C5AE60CA688 /* JSScheduleMetadata.m */,
+				A147879F9C5F9AE58DE2208B /* JSScheduleLookup.h */,
+				A147813DF61F2C9F8B7E1A69 /* JSScheduleLookup.m */,
+				A147876D0CBB5A203071885F /* JSScheduleJobState.h */,
+				A1478CA259B4BAD463F39B36 /* JSScheduleJobState.m */,
+				A14782B2844E9E3717AF73D6 /* JSScheduleTrigger.h */,
+				A147811960554DE953BB6FC7 /* JSScheduleTrigger.m */,
+				A147898826A139D7447590B4 /* JSReportComponent.h */,
+				A147863E63707758748F5870 /* JSReportComponent.m */,
+			);
+			path = JSObjectMappings;
+			sourceTree = "<group>";
+		};
+		0849FC5F1C2B0A91008F1064 /* JSReportExtention */ = {
+			isa = PBXGroup;
+			children = (
+				0849FC661C2B0A91008F1064 /* JSReportExtention.h */,
+				0849FC601C2B0A91008F1064 /* JSReport.h */,
+				0849FC611C2B0A91008F1064 /* JSReport.m */,
+				0849FC621C2B0A91008F1064 /* JSReportExecutionConfiguration.h */,
+				0849FC631C2B0A91008F1064 /* JSReportExecutionConfiguration.m */,
+				0849FC641C2B0A91008F1064 /* JSReportExecutor.h */,
+				0849FC651C2B0A91008F1064 /* JSReportExecutor.m */,
+				0849FC671C2B0A91008F1064 /* JSReportLoader.h */,
+				0849FC681C2B0A91008F1064 /* JSReportLoader.m */,
+				0849FC691C2B0A91008F1064 /* JSReportLoaderProtocol.h */,
+				0849FC6A1C2B0A91008F1064 /* JSReportPagesRange.h */,
+				0849FC6B1C2B0A91008F1064 /* JSReportPagesRange.m */,
+				0849FC6C1C2B0A91008F1064 /* JSReportSaver.h */,
+				0849FC6D1C2B0A91008F1064 /* JSReportSaver.m */,
+				A1478D4DAE50A9711D3A00EF /* JSReportBookmark.h */,
+				A14786E9F3841863C2C32B99 /* JSReportBookmark.m */,
+				A1478BAC3C92E5793C65F8E9 /* JSReportPart.h */,
+				A14783C85F8A6E55B6A0FCCA /* JSReportPart.m */,
+				A1478014B4C3C942E0467991 /* JSReportDestination.h */,
+				A1478A9FDC07CAC502A29AC7 /* JSReportDestination.m */,
+				BD5372521D58D03400442361 /* JSReportSearch.h */,
+				BD5372531D58D03400442361 /* JSReportSearch.m */,
+				BD53724E1D58BF2400442361 /* JSReportSearchResult.h */,
+				BD53724F1D58BF2400442361 /* JSReportSearchResult.m */,
+			);
+			path = JSReportExtention;
+			sourceTree = "<group>";
+		};
+		0849FC6E1C2B0A91008F1064 /* JSRestClient */ = {
+			isa = PBXGroup;
+			children = (
+				0849FC7E1C2B0A91008F1064 /* KeychainItemWrapper */,
+				0849FC7C1C2B0A91008F1064 /* JSRestClient.h */,
+				BD5A50711E1E8F9400B8A853 /* JSUserProfile.h */,
+				BD5A50721E1E8F9400B8A853 /* JSUserProfile.m */,
+				BD5A50751E1EA43700B8A853 /* JSSSOProfile.h */,
+				BD5A50761E1EA43700B8A853 /* JSSSOProfile.m */,
+				BD5A50791E1FD45300B8A853 /* JSPAProfile.h */,
+				BD5A507A1E1FD45300B8A853 /* JSPAProfile.m */,
+				0849FC701C2B0A91008F1064 /* JSProfile.h */,
+				0849FC711C2B0A91008F1064 /* JSProfile.m */,
+				0849FC721C2B0A91008F1064 /* JSRequest.h */,
+				0849FC731C2B0A91008F1064 /* JSRequest.m */,
+				0849FC7A1C2B0A91008F1064 /* JSRESTBase.h */,
+				0849FC7B1C2B0A91008F1064 /* JSRESTBase.m */,
+				0899C44B1C3170C300CFBD91 /* JSRESTBase+JSRESTContentResource.h */,
+				0899C44C1C3170C300CFBD91 /* JSRESTBase+JSRESTContentResource.m */,
+				0849FC741C2B0A91008F1064 /* JSRESTBase+JSRESTReport.h */,
+				0849FC751C2B0A91008F1064 /* JSRESTBase+JSRESTReport.m */,
+				0849FC761C2B0A91008F1064 /* JSRESTBase+JSRESTResource.h */,
+				0849FC771C2B0A91008F1064 /* JSRESTBase+JSRESTResource.m */,
+				0849FC781C2B0A91008F1064 /* JSRESTBase+JSRESTSession.h */,
+				0849FC791C2B0A91008F1064 /* JSRESTBase+JSRESTSession.m */,
+				A1478F16274972BB223D56F6 /* JSRESTBase+JSRESTDashboard.h */,
+				A1478FDBCBE0FE99F2512696 /* JSRESTBase+JSRESTDashboard.m */,
+				A14788C87487E6E38FAC413D /* JSRESTBase+JSSchedule.h */,
+				A147815111A4ADFCC724870F /* JSRESTBase+JSSchedule.m */,
+				BD5A50E01E1FE28D00B8A853 /* JSRESTBase+JSRESTServer.h */,
+				BD5A50E11E1FE28D00B8A853 /* JSRESTBase+JSRESTServer.m */,
+			);
+			path = JSRestClient;
+			sourceTree = "<group>";
+		};
+		0849FC7E1C2B0A91008F1064 /* KeychainItemWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				0849FC7F1C2B0A91008F1064 /* KeychainItemWrapper.h */,
+				0849FC801C2B0A91008F1064 /* KeychainItemWrapper.m */,
+			);
+			path = KeychainItemWrapper;
+			sourceTree = "<group>";
+		};
+		0849FC811C2B0A91008F1064 /* JSSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				0849FC861C2B0A91008F1064 /* JSSecurity.h */,
+				0849FC821C2B0A91008F1064 /* BasicEncodingRules.h */,
+				0849FC831C2B0A91008F1064 /* BasicEncodingRules.m */,
+				0849FC841C2B0A91008F1064 /* JSEncryptionManager.h */,
+				0849FC851C2B0A91008F1064 /* JSEncryptionManager.m */,
+			);
+			path = JSSecurity;
+			sourceTree = "<group>";
+		};
+		0849FCE21C2C1D7D008F1064 /* JSHelper */ = {
+			isa = PBXGroup;
+			children = (
+				0849FCE31C2C1D7D008F1064 /* JaspersoftSDK.h */,
+				0849FCE61C2C1D7D008F1064 /* JSHelper.h */,
+				0849FCE41C2C1D7D008F1064 /* JSConstants.h */,
+				0849FCE51C2C1D7D008F1064 /* JSConstants.m */,
+				0899C4431C2D8FEE00CFBD91 /* JSErrorBuilder.h */,
+				0899C4441C2D8FEE00CFBD91 /* JSErrorBuilder.m */,
+				BD3688F31D357AC5008837BE /* JSFileSaver.h */,
+				BD3688F41D357AC5008837BE /* JSFileSaver.m */,
+				0849FCE71C2C1D7D008F1064 /* JSUtils.h */,
+				0849FCE81C2C1D7D008F1064 /* JSUtils.m */,
+				A1478E5FF766BDE05BFDB838 /* JSDateFormatterFactory.h */,
+				A1478F2F9E43E7F32310F7FB /* JSDateFormatterFactory.m */,
+				BD991C581CF76B5B00859145 /* NSString+JSURLEncodings.h */,
+				BD991C591CF76B5B00859145 /* NSString+JSURLEncodings.m */,
+			);
+			path = JSHelper;
+			sourceTree = "<group>";
+		};
+		088BE3801CCF73FA004FEAA9 /* JaspersoftSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				088BE38A1CCF761D004FEAA9 /* JaspersoftSDKTests */,
+			);
+			path = JaspersoftSDKTests;
+			sourceTree = "<group>";
+		};
+		088BE38A1CCF761D004FEAA9 /* JaspersoftSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				088BE38B1CCF761E004FEAA9 /* Sources */,
+				088BE3A31CD10BB7004FEAA9 /* Resources */,
+				088BE38D1CCF761E004FEAA9 /* Support Files */,
+			);
+			name = JaspersoftSDKTests;
+			sourceTree = "<group>";
+		};
+		088BE38B1CCF761E004FEAA9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				08414F431CDC817500140A83 /* Helpers */,
+				088BE39C1CD0E93B004FEAA9 /* Mapping */,
+				088BE38C1CCF761E004FEAA9 /* JaspersoftSDKTests.m */,
+				08414F3F1CDC7FF500140A83 /* JSObjectRepresentationProviderTest.m */,
+				08414F411CDC814900140A83 /* JSServerProfileProviderTest.m */,
+				081773901CD38A1300899B3A /* JSUserProfileTest.m */,
+				08414F8D1CE5B7BF00140A83 /* JSDateFormatterFactoryTest.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		088BE38D1CCF761E004FEAA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				088BE38E1CCF761E004FEAA9 /* Info.plist */,
+				0817738D1CD3774400899B3A /* JaspersoftSDKTests-Prefix.pch */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		088BE39C1CD0E93B004FEAA9 /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				088BE39D1CD0E93B004FEAA9 /* JSServerInfoTest.m */,
+				0817738B1CD376D600899B3A /* JSEncryptionDataTest.m */,
+				08414F1D1CDB583D00140A83 /* JSResourceLookupTest.m */,
+				08414F1B1CDB56FA00140A83 /* JSContentResourceTest.m */,
+				08414F231CDB6FCB00140A83 /* JSDataTypeTest.m */,
+				08414F271CDB738800140A83 /* JSDateTimeFormatValidationRuleTest.m */,
+				08414F291CDB774600140A83 /* JSMandatoryValidationRuleTest.m */,
+				08414F2F1CDB799B00140A83 /* JSErrorDescriptorTest.m */,
+				08414F331CDB7C1300140A83 /* JSExecutionStatusTest.m */,
+				08414F371CDB902B00140A83 /* JSExportExecutionRequestTest.m */,
+				08414F3B1CDB961D00140A83 /* JSExportExecutionResponseTest.m */,
+				08414F4A1CDC931D00140A83 /* JSInputControlOptionTest.m */,
+				08414F4E1CDC961D00140A83 /* JSInputControlStateTest.m */,
+				BD5A50DE1E1FDCAC00B8A853 /* JSOrganizationTest.m */,
+				08414F521CDCA32800140A83 /* JSParameterTest.m */,
+				08414F561CDCABCE00140A83 /* JSReportExecutionRequestTest.m */,
+				08414F5A1CDCC85400140A83 /* JSReportExecutionResponseTest.m */,
+				08414F5E1CDCD6DD00140A83 /* JSReportOptionTest.m */,
+				08414F671CE2178500140A83 /* JSReportOutputResourceTest.m */,
+				08414F631CE2160E00140A83 /* JSReportParameterTest.m */,
+				08414F6B1CE21BA400140A83 /* JSResourcePatchRequestTest.m */,
+				08414F6F1CE22B3800140A83 /* JSResourceReportUnitTest.m */,
+				BD5A50DC1E1FDCA500B8A853 /* JSRoleTest.m */,
+				08414F731CE22CE100140A83 /* JSDashboardComponent.m */,
+				08414F7D1CE3529800140A83 /* JSReportComponentTest.m */,
+				08414F8B1CE5B6B700140A83 /* JSScheduleJobStateTest.m */,
+				08414F911CE6022D00140A83 /* JSScheduleLookupTest.m */,
+				08414F951CE605DB00140A83 /* JSScheduleTriggerTest.m */,
+				08414F9F1CEB475900140A83 /* JSScheduleMetadataTest.m */,
+				08414FA11CEB683200140A83 /* JSInputControlDescriptorTest.m */,
+			);
+			path = Mapping;
+			sourceTree = "<group>";
+		};
+		088BE3A31CD10BB7004FEAA9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				088BE3A41CD10BB7004FEAA9 /* MappingJSONModels */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		088BE3A41CD10BB7004FEAA9 /* MappingJSONModels */ = {
+			isa = PBXGroup;
+			children = (
+				08414F1F1CDB6A2900140A83 /* ContentResource.json */,
+				08414F751CE235A700140A83 /* DashboardComponent.json */,
+				08414F2B1CDB779D00140A83 /* DateTimeFormatValidationRule.json */,
+				08414F251CDB726700140A83 /* DataType.json */,
+				0817738E1CD37C2200899B3A /* EncryptionData.json */,
+				08414F311CDB7BAE00140A83 /* ErrorDescriptor.json */,
+				08414F3D1CDB980C00140A83 /* ExportExecutionResponse.json */,
+				08414F391CDB955400140A83 /* ExportExecutionRequest.json */,
+				08414F351CDB7CDD00140A83 /* ExecutionStatus.json */,
+				08414FA31CEB6E0B00140A83 /* InputControlDescriptor.json */,
+				08414FA51CEB701000140A83 /* InputControlDescriptorDateTimeRule.json */,
+				08414FA61CEB701000140A83 /* InputControlDescriptorMandatoryRule.json */,
+				08414FA91CEB75E800140A83 /* InputControlDescriptorSelectableValue.json */,
+				08414FAA1CEB75E800140A83 /* InputControlDescriptorSingleValue.json */,
+				08414F4C1CDC942600140A83 /* InputControlOption.json */,
+				08414F501CDC974C00140A83 /* InputControlState.json */,
+				08414F2C1CDB779D00140A83 /* MandatoryValidationRule.json */,
+				BD5A50DA1E1FDC1100B8A853 /* Organization.json */,
+				08414F541CDCA4AC00140A83 /* Parameter.json */,
+				08414F581CDCB14900140A83 /* ReportExecutionRequest.json */,
+				08414F5C1CDCD1F100140A83 /* ReportExecutionResponse.json */,
+				08414F601CDCD9D600140A83 /* ReportOption.json */,
+				08414F691CE217F200140A83 /* ReportOutputResource.json */,
+				08414F651CE216D300140A83 /* ReportParameter.json */,
+				08414F201CDB6A2900140A83 /* ResourceLookup.json */,
+				08414F6D1CE21F1500140A83 /* ResourcePatchRequest.json */,
+				08414F711CE22BFB00140A83 /* ResourceReportUnit.json */,
+				BD5A50D81E1FDC0600B8A853 /* Role.json */,
+				08414F7F1CE4AFA400140A83 /* ReportComponent.json */,
+				08414F811CE4B57100140A83 /* ReportComponentTableStructure.json */,
+				08414F841CE4C57200140A83 /* ReportComponentColumnStructure.json */,
+				08414F831CE4C57200140A83 /* ReportComponentChartStructure.json */,
+				08414F851CE4C57200140A83 /* ReportComponentCrosstabStructure.json */,
+				08414F861CE4C57200140A83 /* ReportComponentFusionStructure.json */,
+				08414F8F1CE5F2FD00140A83 /* ScheduleJobState.json */,
+				08414F931CE6049E00140A83 /* ScheduleLookup.json */,
+				08414F991CE610B900140A83 /* ScheduleMetadata.json */,
+				08414F971CE60A2F00140A83 /* ScheduleTrigger.json */,
+				08414F9B1CEB0F5600140A83 /* ScheduleSimpleTrigger.json */,
+				08414F9D1CEB12E900140A83 /* ScheduleCalendarTrigger.json */,
+				088BE3A51CD10BB7004FEAA9 /* ServerInfo.json */,
+			);
+			path = MappingJSONModels;
+			sourceTree = "<group>";
+		};
+		18BEA90CACBFA0AA1045FBD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA13BD645DD21B4259C8E1B8 /* Pods-JaspersoftSDK.debug.xcconfig */,
+				CE241112233BFF779E325E40 /* Pods-JaspersoftSDK.release.xcconfig */,
+				F873D00592B037B01451794E /* Pods-JaspersoftSDKTests.debug.xcconfig */,
+				8B47219FE89A4B1BC9637BA0 /* Pods-JaspersoftSDKTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A14781C33B4F5C834CAA8E45 /* EULA */ = {
+			isa = PBXGroup;
+			children = (
+				08414F791CE32D0200140A83 /* TIB_jsm-sdk-ios_2.5.0_license.txt */,
+			);
+			path = EULA;
+			sourceTree = "<group>";
+		};
+		BD8AE8941D3569C0006B5595 /* JSDashboardExtention */ = {
+			isa = PBXGroup;
+			children = (
+				BD8AE89D1D357253006B5595 /* JSDashboardExtention.h */,
+				BD8AE8991D356C4F006B5595 /* JSDashboard.h */,
+				BD8AE89A1D356C4F006B5595 /* JSDashboard.m */,
+				BD8AE8951D3569E8006B5595 /* JSDashboardSaver.h */,
+				BD8AE8961D3569E8006B5595 /* JSDashboardSaver.m */,
+			);
+			name = JSDashboardExtention;
+			path = Sources/JSDashboardExtention;
+			sourceTree = SOURCE_ROOT;
+		};
+		F59768B215E3C75E004165A7 = {
+			isa = PBXGroup;
+			children = (
+				0849FC2F1C2B0A91008F1064 /* Sources */,
+				F5A8141415EBFA1900151B1D /* Support */,
+				F59768BF15E3C75F004165A7 /* Frameworks */,
+				0811BC8D1C0889B7006D0ABF /* Resources */,
+				F59768BE15E3C75F004165A7 /* Products */,
+				088BE3801CCF73FA004FEAA9 /* JaspersoftSDKTests */,
+				18BEA90CACBFA0AA1045FBD9 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F59768BE15E3C75F004165A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F59768BD15E3C75F004165A7 /* libJaspersoftSDK.a */,
+				088BE37F1CCF73F9004FEAA9 /* JaspersoftSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F59768BF15E3C75F004165A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				088663541DF1A77000B8009B /* libEasyMapping.a */,
+				088663521DF1A76B00B8009B /* libAFNetworking.a */,
+				0886634F1DF1A75200B8009B /* libPods-JaspersoftSDK.a */,
+				F5758F48174E303E00C355C1 /* QuartzCore.framework */,
+				F5758F46174E303900C355C1 /* libxml2.dylib */,
+				F5758F44174E303300C355C1 /* SystemConfiguration.framework */,
+				F5758F42174E302E00C355C1 /* MobileCoreServices.framework */,
+				F5758F40174E302800C355C1 /* Security.framework */,
+				F5758F3D174E301800C355C1 /* CFNetwork.framework */,
+				F59768C015E3C75F004165A7 /* Foundation.framework */,
+				F5F68E0C15E55EC000270103 /* Other Frameworks */,
+				F85CFDE522786E932150FC50 /* libPods-JaspersoftSDK.a */,
+				197230D4143B7CADD4623F26 /* libPods-JaspersoftSDKTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5A8141415EBFA1900151B1D /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F5A8141715EBFA1900151B1D /* JaspersoftSDK-Prefix.pch */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		F5F68E0C15E55EC000270103 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5F68E0D15E55EC000270103 /* AppKit.framework */,
+				F5F68E0E15E55EC000270103 /* CoreData.framework */,
+				F5F68E0F15E55EC000270103 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F59768BB15E3C75F004165A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0849FCC01C2B0A92008F1064 /* JSReportExtention.h in Headers */,
+				BD5A507B1E1FD45300B8A853 /* JSPAProfile.h in Headers */,
+				BD5372541D58D03400442361 /* JSReportSearch.h in Headers */,
+				0849FC931C2B0A91008F1064 /* JSExecutionStatus.h in Headers */,
+				0849FCC41C2B0A92008F1064 /* JSReportPagesRange.h in Headers */,
+				0849FCC31C2B0A92008F1064 /* JSReportLoaderProtocol.h in Headers */,
+				BD0A8F061C7F646A00C63F44 /* JSMapping.h in Headers */,
+				0849FCBE1C2B0A92008F1064 /* JSReportExecutor.h in Headers */,
+				0849FC8F1C2B0A91008F1064 /* JSDateTimeFormatValidationRule.h in Headers */,
+				0849FCA11C2B0A91008F1064 /* JSObjectMappings.h in Headers */,
+				0849FCBC1C2B0A92008F1064 /* JSReportExecutionConfiguration.h in Headers */,
+				0849FCAA1C2B0A91008F1064 /* JSReportOption.h in Headers */,
+				0849FC8D1C2B0A91008F1064 /* JSDataType.h in Headers */,
+				BD8AE8921D35670A006B5595 /* JSDashboardExportExecutionStatus.h in Headers */,
+				0849FCBA1C2B0A92008F1064 /* JSReport.h in Headers */,
+				0849FC9B1C2B0A91008F1064 /* JSInputControlOption.h in Headers */,
+				0849FC971C2B0A91008F1064 /* JSExportExecutionResponse.h in Headers */,
+				0849FCB61C2B0A91008F1064 /* JSResourceReportUnit.h in Headers */,
+				0849FCA21C2B0A91008F1064 /* JSOperationResult.h in Headers */,
+				BD194F891C75D50100C99DA9 /* JSObjectMappingsProtocol.h in Headers */,
+				0849FC991C2B0A91008F1064 /* JSInputControlDescriptor.h in Headers */,
+				08061B6C1C919187004F5E49 /* JSParameter.h in Headers */,
+				0849FCD71C2B0A93008F1064 /* KeychainItemWrapper.h in Headers */,
+				0849FCCF1C2B0A92008F1064 /* JSRESTBase+JSRESTResource.h in Headers */,
+				0849FC951C2B0A91008F1064 /* JSExportExecutionRequest.h in Headers */,
+				BD991C5A1CF76B5B00859145 /* NSString+JSURLEncodings.h in Headers */,
+				0899C4451C2D8FEE00CFBD91 /* JSErrorBuilder.h in Headers */,
+				0849FCAE1C2B0A91008F1064 /* JSReportParameter.h in Headers */,
+				BD5372501D58BF2400442361 /* JSReportSearchResult.h in Headers */,
+				0849FCDD1C2B0A93008F1064 /* JSSecurity.h in Headers */,
+				0849FCE91C2C1D7D008F1064 /* JaspersoftSDK.h in Headers */,
+				0849FCCD1C2B0A92008F1064 /* JSRESTBase+JSRESTReport.h in Headers */,
+				0849FCD91C2B0A93008F1064 /* BasicEncodingRules.h in Headers */,
+				0899C44D1C3170C300CFBD91 /* JSRESTBase+JSRESTContentResource.h in Headers */,
+				0849FCD31C2B0A92008F1064 /* JSRESTBase.h in Headers */,
+				0849FCEA1C2C1D7D008F1064 /* JSConstants.h in Headers */,
+				0849FCD51C2B0A92008F1064 /* JSRestClient.h in Headers */,
+				0849FCB41C2B0A91008F1064 /* JSResourcePatchRequest.h in Headers */,
+				0849FCED1C2C1D7D008F1064 /* JSUtils.h in Headers */,
+				0849FCEC1C2C1D7D008F1064 /* JSHelper.h in Headers */,
+				0849FCD11C2B0A92008F1064 /* JSRESTBase+JSRESTSession.h in Headers */,
+				0849FCAC1C2B0A91008F1064 /* JSReportOutputResource.h in Headers */,
+				0849FC9D1C2B0A91008F1064 /* JSInputControlState.h in Headers */,
+				BD8AE8861D352886006B5595 /* JSDashboardExportExecutionResource.h in Headers */,
+				BD5A50731E1E8F9400B8A853 /* JSUserProfile.h in Headers */,
+				0849FCC11C2B0A92008F1064 /* JSReportLoader.h in Headers */,
+				0849FCB01C2B0A91008F1064 /* JSResourceLookup.h in Headers */,
+				0849FC911C2B0A91008F1064 /* JSErrorDescriptor.h in Headers */,
+				0849FCB81C2B0A91008F1064 /* JSServerInfo.h in Headers */,
+				0817D9921C71CBD300111256 /* JSEncryptionData.h in Headers */,
+				0849FCA81C2B0A91008F1064 /* JSReportExecutionResponse.h in Headers */,
+				0849FCDB1C2B0A93008F1064 /* JSEncryptionManager.h in Headers */,
+				0849FCA61C2B0A91008F1064 /* JSReportExecutionRequest.h in Headers */,
+				0849FCCB1C2B0A92008F1064 /* JSRequest.h in Headers */,
+				BD8AE89B1D356C4F006B5595 /* JSDashboard.h in Headers */,
+				0899C4491C3170AC00CFBD91 /* JSContentResource.h in Headers */,
+				BD8AE88E1D356047006B5595 /* JSDashboardParameter.h in Headers */,
+				0849FCC91C2B0A92008F1064 /* JSProfile.h in Headers */,
+				0849FC9F1C2B0A91008F1064 /* JSMandatoryValidationRule.h in Headers */,
+				0849FCC61C2B0A92008F1064 /* JSReportSaver.h in Headers */,
+				A147800DD37B9AF78B86CEF8 /* JSRESTBase+JSRESTDashboard.h in Headers */,
+				A1478B2366FD595E1D5184F7 /* JSDashboardComponent.h in Headers */,
+				A1478853DBB60C2FD9C3C7FB /* JSScheduleMetadata.h in Headers */,
+				A1478EF134484CF355BA4DF5 /* JSScheduleLookup.h in Headers */,
+				A1478FE74D5DDD802462C488 /* JSScheduleJobState.h in Headers */,
+				BD8AE88A1D355ED4006B5595 /* JSPatchResourceParameter.h in Headers */,
+				A147864DB8024087AD318145 /* JSScheduleTrigger.h in Headers */,
+				BD8AE89E1D357253006B5595 /* JSDashboardExtention.h in Headers */,
+				BD8AE8971D3569E8006B5595 /* JSDashboardSaver.h in Headers */,
+				BD3688F51D357AC5008837BE /* JSFileSaver.h in Headers */,
+				A1478449D2FAFA08F51A8C36 /* JSRESTBase+JSSchedule.h in Headers */,
+				A1478A75DCE4466F783BEEEB /* JSReportComponent.h in Headers */,
+				A14789D7C67ED26B7DED7A09 /* JSDateFormatterFactory.h in Headers */,
+				A1478715161A334AAD4A0DFC /* JSReportBookmark.h in Headers */,
+				BD5A50831E1FD98900B8A853 /* JSOrganization.h in Headers */,
+				A14783AEA5266354993F7F4C /* JSReportPart.h in Headers */,
+				BD5A507F1E1FD88300B8A853 /* JSRole.h in Headers */,
+				A1478E5D0DBBAD45140B2161 /* JSReportDestination.h in Headers */,
+				BD5A50771E1EA43700B8A853 /* JSSSOProfile.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		088BE37E1CCF73F9004FEAA9 /* JaspersoftSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088BE3891CCF73FA004FEAA9 /* Build configuration list for PBXNativeTarget "JaspersoftSDKTests" */;
+			buildPhases = (
+				7006BCA3678232D73F209E6B /* [CP] Check Pods Manifest.lock */,
+				088BE37B1CCF73F9004FEAA9 /* Sources */,
+				088BE37C1CCF73F9004FEAA9 /* Frameworks */,
+				088BE37D1CCF73F9004FEAA9 /* Resources */,
+				FD3A542DDBF26BBFA15B71EF /* [CP] Embed Pods Frameworks */,
+				40270DC688EBC42F6393B0D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				088BE3861CCF73FA004FEAA9 /* PBXTargetDependency */,
+			);
+			name = JaspersoftSDKTests;
+			productName = JaspersoftSDKTests;
+			productReference = 088BE37F1CCF73F9004FEAA9 /* JaspersoftSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F59768BC15E3C75F004165A7 /* JaspersoftSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59768CA15E3C75F004165A7 /* Build configuration list for PBXNativeTarget "JaspersoftSDK" */;
+			buildPhases = (
+				2343DE2240C072A26E20AED0 /* [CP] Check Pods Manifest.lock */,
+				08008D6A1D2D670E00B8C227 /* Run Script Generate Localizations */,
+				F59768B915E3C75F004165A7 /* Sources */,
+				F59768BB15E3C75F004165A7 /* Headers */,
+				9B895EB877E9542E6F4F144E /* Frameworks */,
+				9D52AA632B4D1595ACD8C0D6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JaspersoftSDK;
+			productName = "jaspersoft-sdk";
+			productReference = F59768BD15E3C75F004165A7 /* libJaspersoftSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F59768B415E3C75E004165A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JS;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "TIBCO JasperMobile";
+				TargetAttributes = {
+					088BE37E1CCF73F9004FEAA9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9363A1031B70E2720068FC54 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = F59768B715E3C75E004165A7 /* Build configuration list for PBXProject "JaspersoftSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				de,
+				ja,
+				es,
+				it,
+				pt,
+				zh,
+			);
+			mainGroup = F59768B215E3C75E004165A7;
+			productRefGroup = F59768BE15E3C75F004165A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F59768BC15E3C75F004165A7 /* JaspersoftSDK */,
+				9363A1031B70E2720068FC54 /* Documentation */,
+				088BE37E1CCF73F9004FEAA9 /* JaspersoftSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		088BE37D1CCF73F9004FEAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08008D7D1D2D690A00B8C227 /* Localizable.strings in Resources */,
+				08414F3A1CDB955400140A83 /* ExportExecutionRequest.json in Resources */,
+				08414F6A1CE217F200140A83 /* ReportOutputResource.json in Resources */,
+				08414F941CE6049E00140A83 /* ScheduleLookup.json in Resources */,
+				08414F611CDCD9D600140A83 /* ReportOption.json in Resources */,
+				08414FAC1CEB75E800140A83 /* InputControlDescriptorSingleValue.json in Resources */,
+				08414F2D1CDB779D00140A83 /* DateTimeFormatValidationRule.json in Resources */,
+				08414F591CDCB14900140A83 /* ReportExecutionRequest.json in Resources */,
+				08414FA41CEB6E0B00140A83 /* InputControlDescriptor.json in Resources */,
+				08414F661CE216D300140A83 /* ReportParameter.json in Resources */,
+				08414F5D1CDCD1F100140A83 /* ReportExecutionResponse.json in Resources */,
+				0817738F1CD37C2200899B3A /* EncryptionData.json in Resources */,
+				08414F221CDB6A2900140A83 /* ResourceLookup.json in Resources */,
+				BD5A50D91E1FDC0600B8A853 /* Role.json in Resources */,
+				BD5A50DB1E1FDC1100B8A853 /* Organization.json in Resources */,
+				08414F891CE4C57200140A83 /* ReportComponentCrosstabStructure.json in Resources */,
+				08414F8A1CE4C57200140A83 /* ReportComponentFusionStructure.json in Resources */,
+				08414F9A1CE610B900140A83 /* ScheduleMetadata.json in Resources */,
+				08414F261CDB726700140A83 /* DataType.json in Resources */,
+				08414F801CE4AFA400140A83 /* ReportComponent.json in Resources */,
+				08414F4D1CDC942600140A83 /* InputControlOption.json in Resources */,
+				08414F2E1CDB779D00140A83 /* MandatoryValidationRule.json in Resources */,
+				08414F9E1CEB12E900140A83 /* ScheduleCalendarTrigger.json in Resources */,
+				08414F6E1CE21F1500140A83 /* ResourcePatchRequest.json in Resources */,
+				08414F551CDCA4AC00140A83 /* Parameter.json in Resources */,
+				08414F761CE235A700140A83 /* DashboardComponent.json in Resources */,
+				08414F321CDB7BAE00140A83 /* ErrorDescriptor.json in Resources */,
+				08414F211CDB6A2900140A83 /* ContentResource.json in Resources */,
+				08414F881CE4C57200140A83 /* ReportComponentColumnStructure.json in Resources */,
+				08414F721CE22BFB00140A83 /* ResourceReportUnit.json in Resources */,
+				08414F871CE4C57200140A83 /* ReportComponentChartStructure.json in Resources */,
+				08414FA71CEB701000140A83 /* InputControlDescriptorDateTimeRule.json in Resources */,
+				08414FA81CEB701000140A83 /* InputControlDescriptorMandatoryRule.json in Resources */,
+				088BE3A61CD10BB7004FEAA9 /* ServerInfo.json in Resources */,
+				08414F9C1CEB0F5600140A83 /* ScheduleSimpleTrigger.json in Resources */,
+				08414FAB1CEB75E800140A83 /* InputControlDescriptorSelectableValue.json in Resources */,
+				08414F821CE4B57100140A83 /* ReportComponentTableStructure.json in Resources */,
+				08414F3E1CDB980C00140A83 /* ExportExecutionResponse.json in Resources */,
+				08414F361CDB7CDD00140A83 /* ExecutionStatus.json in Resources */,
+				08414F981CE60A2F00140A83 /* ScheduleTrigger.json in Resources */,
+				08414F901CE5F2FD00140A83 /* ScheduleJobState.json in Resources */,
+				08414F511CDC974C00140A83 /* InputControlState.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08008D6A1D2D670E00B8C227 /* Run Script Generate Localizations */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script Generate Localizations";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Start compiling localizations\"\nPATH=$PATH:~/bin\nlocalizationFolderPath=${SRCROOT}/Resources/Localizable\nallLocalizationsFolderPath=$localizationFolderPath/all_values\nallLocalizationsFileName=locales.txt\noutputPathNewStrings=$localizationFolderPath/New_Strings\noutputPath=$localizationFolderPath/JaspersoftSDK.strings\ncat \"$allLocalizationsFolderPath/\"*.txt > $localizationFolderPath/$allLocalizationsFileName\n\nif [ -d \"$outputPath\" ]; then\necho \"$outputPath exist\"\nrm -r \"$outputPath\"\nrm -r \"$outputPathNewStrings\"\nfi\n\necho \"$outputPath doesn't exist\"\n#localizable strings\nmkdir \"$outputPath\"\nmkdir \"$outputPath/de.lproj\"\nmkdir \"$outputPath/en.lproj\"\nmkdir \"$outputPath/es.lproj\"\nmkdir \"$outputPath/fr.lproj\"\nmkdir \"$outputPath/it.lproj\"\nmkdir \"$outputPath/ja.lproj\"\nmkdir \"$outputPath/pt.lproj\"\nmkdir \"$outputPath/zh.lproj\"\n#new strings\nmkdir \"$outputPathNewStrings\"\nmkdir \"$outputPathNewStrings/en.lproj\"\n#create new localizables\ntwine generate-all-string-files \"$localizationFolderPath/$allLocalizationsFileName\" \"$outputPathNewStrings/\" --tags new\ntwine generate-all-string-files \"$localizationFolderPath/$allLocalizationsFileName\" \"$outputPath/\"\n\nrm \"$localizationFolderPath/$allLocalizationsFileName\"\necho \"Finish compiling localizations\"";
+		};
+		2343DE2240C072A26E20AED0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40270DC688EBC42F6393B0D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JaspersoftSDKTests/Pods-JaspersoftSDKTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7006BCA3678232D73F209E6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9363A1071B70E29A0068FC54 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "PATH=$PATH:~/bin\nbuildNumber=\"2.6\"\n#appledoc Xcode script\n# Start constants\ncompany=\"TIBCO Jaspersoft\";\ncompanyID=\"com.Jaspersoft.TIBCO\";\ncompanyURL=\"http://TIBCO.com\";\ntarget=\"iphoneos\";\noutputPath=\"~/Developer/help/js-ios-sdk/$buildNumber\";\n# End constants\nappledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--output \"${outputPath}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n\"${PROJECT_DIR}\"";
+		};
+		9D52AA632B4D1595ACD8C0D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JaspersoftSDK/Pods-JaspersoftSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD3A542DDBF26BBFA15B71EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JaspersoftSDKTests/Pods-JaspersoftSDKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088BE37B1CCF73F9004FEAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08414F701CE22B3800140A83 /* JSResourceReportUnitTest.m in Sources */,
+				08414F8C1CE5B6B700140A83 /* JSScheduleJobStateTest.m in Sources */,
+				08414F1E1CDB583D00140A83 /* JSResourceLookupTest.m in Sources */,
+				08414F401CDC7FF500140A83 /* JSObjectRepresentationProviderTest.m in Sources */,
+				08414F5F1CDCD6DD00140A83 /* JSReportOptionTest.m in Sources */,
+				08414F341CDB7C1300140A83 /* JSExecutionStatusTest.m in Sources */,
+				08414FA01CEB475900140A83 /* JSScheduleMetadataTest.m in Sources */,
+				BD5A50DF1E1FDCAC00B8A853 /* JSOrganizationTest.m in Sources */,
+				08414F281CDB738800140A83 /* JSDateTimeFormatValidationRuleTest.m in Sources */,
+				08414F681CE2178500140A83 /* JSReportOutputResourceTest.m in Sources */,
+				08414F241CDB6FCB00140A83 /* JSDataTypeTest.m in Sources */,
+				08414F301CDB799B00140A83 /* JSErrorDescriptorTest.m in Sources */,
+				081773911CD38A1300899B3A /* JSUserProfileTest.m in Sources */,
+				08414F8E1CE5B7BF00140A83 /* JSDateFormatterFactoryTest.m in Sources */,
+				08414F4F1CDC961D00140A83 /* JSInputControlStateTest.m in Sources */,
+				BD5A50E21E1FE28D00B8A853 /* JSRESTBase+JSRESTServer.m in Sources */,
+				08414F3C1CDB961D00140A83 /* JSExportExecutionResponseTest.m in Sources */,
+				08414F491CDC817500140A83 /* JSServerProfileProvider.m in Sources */,
+				08414F421CDC814900140A83 /* JSServerProfileProviderTest.m in Sources */,
+				08414F641CE2160E00140A83 /* JSReportParameterTest.m in Sources */,
+				BD5A50DD1E1FDCA500B8A853 /* JSRoleTest.m in Sources */,
+				088BE38F1CCF761E004FEAA9 /* JaspersoftSDKTests.m in Sources */,
+				08414F6C1CE21BA400140A83 /* JSResourcePatchRequestTest.m in Sources */,
+				08414F741CE22CE100140A83 /* JSDashboardComponent.m in Sources */,
+				08414FA21CEB683200140A83 /* JSInputControlDescriptorTest.m in Sources */,
+				08414F481CDC817500140A83 /* JSObjectRepresentationProvider.m in Sources */,
+				08414F921CE6022D00140A83 /* JSScheduleLookupTest.m in Sources */,
+				08414F4B1CDC931D00140A83 /* JSInputControlOptionTest.m in Sources */,
+				08414F531CDCA32800140A83 /* JSParameterTest.m in Sources */,
+				08414F571CDCABCE00140A83 /* JSReportExecutionRequestTest.m in Sources */,
+				08414F961CE605DB00140A83 /* JSScheduleTriggerTest.m in Sources */,
+				08414F2A1CDB774600140A83 /* JSMandatoryValidationRuleTest.m in Sources */,
+				0817738C1CD376D600899B3A /* JSEncryptionDataTest.m in Sources */,
+				08414F1C1CDB56FA00140A83 /* JSContentResourceTest.m in Sources */,
+				088BE39E1CD0E93B004FEAA9 /* JSServerInfoTest.m in Sources */,
+				08414F5B1CDCC85400140A83 /* JSReportExecutionResponseTest.m in Sources */,
+				08414F7E1CE3529800140A83 /* JSReportComponentTest.m in Sources */,
+				08414F381CDB902B00140A83 /* JSExportExecutionRequestTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59768B915E3C75F004165A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5A50801E1FD88300B8A853 /* JSRole.m in Sources */,
+				0849FCD21C2B0A92008F1064 /* JSRESTBase+JSRESTSession.m in Sources */,
+				0849FCD41C2B0A92008F1064 /* JSRESTBase.m in Sources */,
+				0849FC9C1C2B0A91008F1064 /* JSInputControlOption.m in Sources */,
+				0849FCCA1C2B0A92008F1064 /* JSProfile.m in Sources */,
+				BD5372511D58BF2400442361 /* JSReportSearchResult.m in Sources */,
+				0849FC901C2B0A91008F1064 /* JSDateTimeFormatValidationRule.m in Sources */,
+				0849FC9A1C2B0A91008F1064 /* JSInputControlDescriptor.m in Sources */,
+				BD8AE8981D3569E8006B5595 /* JSDashboardSaver.m in Sources */,
+				BD5A507C1E1FD45300B8A853 /* JSPAProfile.m in Sources */,
+				0849FC8E1C2B0A91008F1064 /* JSDataType.m in Sources */,
+				0849FCBF1C2B0A92008F1064 /* JSReportExecutor.m in Sources */,
+				0849FCEE1C2C1D7D008F1064 /* JSUtils.m in Sources */,
+				0849FCCC1C2B0A92008F1064 /* JSRequest.m in Sources */,
+				0849FCA31C2B0A91008F1064 /* JSOperationResult.m in Sources */,
+				BD991C5B1CF76B5B00859145 /* NSString+JSURLEncodings.m in Sources */,
+				0849FCB71C2B0A91008F1064 /* JSResourceReportUnit.m in Sources */,
+				0849FCAD1C2B0A91008F1064 /* JSReportOutputResource.m in Sources */,
+				0849FCAF1C2B0A91008F1064 /* JSReportParameter.m in Sources */,
+				0849FCD81C2B0A93008F1064 /* KeychainItemWrapper.m in Sources */,
+				0849FC981C2B0A91008F1064 /* JSExportExecutionResponse.m in Sources */,
+				0849FCAB1C2B0A91008F1064 /* JSReportOption.m in Sources */,
+				0899C4461C2D8FEE00CFBD91 /* JSErrorBuilder.m in Sources */,
+				0849FCA91C2B0A91008F1064 /* JSReportExecutionResponse.m in Sources */,
+				BD3688F61D357AC5008837BE /* JSFileSaver.m in Sources */,
+				0849FCDC1C2B0A93008F1064 /* JSEncryptionManager.m in Sources */,
+				0849FC9E1C2B0A91008F1064 /* JSInputControlState.m in Sources */,
+				0849FC961C2B0A91008F1064 /* JSExportExecutionRequest.m in Sources */,
+				0849FC921C2B0A91008F1064 /* JSErrorDescriptor.m in Sources */,
+				0849FCB51C2B0A91008F1064 /* JSResourcePatchRequest.m in Sources */,
+				0849FCB91C2B0A92008F1064 /* JSServerInfo.m in Sources */,
+				0849FCBD1C2B0A92008F1064 /* JSReportExecutionConfiguration.m in Sources */,
+				BD8AE88B1D355ED4006B5595 /* JSPatchResourceParameter.m in Sources */,
+				BD5372551D58D03400442361 /* JSReportSearch.m in Sources */,
+				BD0A8F071C7F646A00C63F44 /* JSMapping.m in Sources */,
+				0849FCC51C2B0A92008F1064 /* JSReportPagesRange.m in Sources */,
+				BD5A50781E1EA43700B8A853 /* JSSSOProfile.m in Sources */,
+				0849FCB11C2B0A91008F1064 /* JSResourceLookup.m in Sources */,
+				0849FCBB1C2B0A92008F1064 /* JSReport.m in Sources */,
+				BD8AE88F1D356047006B5595 /* JSDashboardParameter.m in Sources */,
+				0899C44E1C3170C300CFBD91 /* JSRESTBase+JSRESTContentResource.m in Sources */,
+				08061B6D1C919187004F5E49 /* JSParameter.m in Sources */,
+				0849FCEB1C2C1D7D008F1064 /* JSConstants.m in Sources */,
+				0849FCDA1C2B0A93008F1064 /* BasicEncodingRules.m in Sources */,
+				0849FCC21C2B0A92008F1064 /* JSReportLoader.m in Sources */,
+				0899C44A1C3170AC00CFBD91 /* JSContentResource.m in Sources */,
+				0849FCD01C2B0A92008F1064 /* JSRESTBase+JSRESTResource.m in Sources */,
+				0849FCC71C2B0A92008F1064 /* JSReportSaver.m in Sources */,
+				0849FCCE1C2B0A92008F1064 /* JSRESTBase+JSRESTReport.m in Sources */,
+				BD8AE8871D352886006B5595 /* JSDashboardExportExecutionResource.m in Sources */,
+				0849FC941C2B0A91008F1064 /* JSExecutionStatus.m in Sources */,
+				0849FCA71C2B0A91008F1064 /* JSReportExecutionRequest.m in Sources */,
+				BD8AE8931D35670A006B5595 /* JSDashboardExportExecutionStatus.m in Sources */,
+				0849FCA01C2B0A91008F1064 /* JSMandatoryValidationRule.m in Sources */,
+				A1478CA432B170CFEDB4D4E4 /* JSRESTBase+JSRESTDashboard.m in Sources */,
+				A147807F7FC01CA5D92C4C37 /* JSDashboardComponent.m in Sources */,
+				A1478671113039DEF1D30ABE /* JSScheduleMetadata.m in Sources */,
+				A14789D7076E289DD1DBA342 /* JSScheduleLookup.m in Sources */,
+				BD8AE89C1D356C4F006B5595 /* JSDashboard.m in Sources */,
+				A1478CBCB217D3A4C19CDBE7 /* JSScheduleJobState.m in Sources */,
+				BD5A50841E1FD98900B8A853 /* JSOrganization.m in Sources */,
+				BD5A50741E1E8F9400B8A853 /* JSUserProfile.m in Sources */,
+				A147857A15CCC0EE16A3C2D3 /* JSScheduleTrigger.m in Sources */,
+				A1478FC814F76B3AD331F43B /* JSRESTBase+JSSchedule.m in Sources */,
+				0817D9931C71CBD300111256 /* JSEncryptionData.m in Sources */,
+				A14786144C8D16D581ECA7D5 /* JSReportComponent.m in Sources */,
+				A1478DD6E4A12B15D8ABDB78 /* JSDateFormatterFactory.m in Sources */,
+				A1478667B278BA5A9B1B05A6 /* JSReportBookmark.m in Sources */,
+				A147892CF5B36E93EF8C5778 /* JSReportPart.m in Sources */,
+				A1478CE668255138CB7CFEA6 /* JSReportDestination.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		088BE3861CCF73FA004FEAA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F59768BC15E3C75F004165A7 /* JaspersoftSDK */;
+			targetProxy = 088BE3851CCF73FA004FEAA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08008D6F1D2D677200B8C227 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08008D701D2D677200B8C227 /* de */,
+				08008D711D2D677200B8C227 /* en */,
+				08008D721D2D677200B8C227 /* es */,
+				08008D731D2D677200B8C227 /* fr */,
+				08008D741D2D677200B8C227 /* it */,
+				08008D751D2D677200B8C227 /* ja */,
+				08008D761D2D677200B8C227 /* pt */,
+				08008D771D2D677200B8C227 /* zh */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		08008D791D2D677200B8C227 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08008D7A1D2D677200B8C227 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		088BE3871CCF73FA004FEAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F873D00592B037B01451794E /* Pods-JaspersoftSDKTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREFIX_HEADER = "JaspersoftSDKTests/Support Files/JaspersoftSDKTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "JaspersoftSDKTests/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaspersoft.JaspersoftSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 armv7 armv7s x86_64 arm64";
+			};
+			name = Debug;
+		};
+		088BE3881CCF73FA004FEAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B47219FE89A4B1BC9637BA0 /* Pods-JaspersoftSDKTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREFIX_HEADER = "JaspersoftSDKTests/Support Files/JaspersoftSDKTests-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "JaspersoftSDKTests/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaspersoft.JaspersoftSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 armv7 armv7s x86_64 arm64";
+			};
+			name = Release;
+		};
+		9363A1041B70E2720068FC54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9363A1051B70E2720068FC54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F59768C815E3C75F004165A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA13BD645DD21B4259C8E1B8 /* Pods-JaspersoftSDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					__DEBUG__,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"/**";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		F59768C915E3C75F004165A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE241112233BFF779E325E40 /* Pods-JaspersoftSDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = __RELEASE__;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"/**";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		F59768CB15E3C75F004165A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA13BD645DD21B4259C8E1B8 /* Pods-JaspersoftSDK.debug.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/jaspersoft_sdk.dst;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Support/JaspersoftSDK-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRIVATE_HEADERS_FOLDER_PATH = ../../Headers/JaspersoftSDK/Private;
+				PRODUCT_NAME = JaspersoftSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "../../Headers/jaspersoft-sdk";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 armv7 armv7s x86_64 arm64";
+			};
+			name = Debug;
+		};
+		F59768CC15E3C75F004165A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE241112233BFF779E325E40 /* Pods-JaspersoftSDK.release.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/jaspersoft_sdk.dst;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Support/JaspersoftSDK-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRIVATE_HEADERS_FOLDER_PATH = ../../Headers/JaspersoftSDK/Private;
+				PRODUCT_NAME = JaspersoftSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "../../Headers/jaspersoft-sdk";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 armv7 armv7s x86_64 arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		088BE3891CCF73FA004FEAA9 /* Build configuration list for PBXNativeTarget "JaspersoftSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088BE3871CCF73FA004FEAA9 /* Debug */,
+				088BE3881CCF73FA004FEAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9363A1061B70E2720068FC54 /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9363A1041B70E2720068FC54 /* Debug */,
+				9363A1051B70E2720068FC54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59768B715E3C75E004165A7 /* Build configuration list for PBXProject "JaspersoftSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59768C815E3C75F004165A7 /* Debug */,
+				F59768C915E3C75F004165A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59768CA15E3C75F004165A7 /* Build configuration list for PBXNativeTarget "JaspersoftSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59768CB15E3C75F004165A7 /* Debug */,
+				F59768CC15E3C75F004165A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F59768B415E3C75E004165A7 /* Project object */;
+}
